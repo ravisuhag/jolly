@@ -1,7 +1,7 @@
 'use strict';
 
 var Glue = require('glue');
-var Manifest = require('.config/manifest');
+var Manifest = require('./config/manifest');
 
 var composeOptions = {
   relativeTo: __dirname

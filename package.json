@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/ravisuhag/jolly/issues"
   },
-  "homepage": "https://github.com/ravisuhag/jolly#readme"
+  "homepage": "https://github.com/ravisuhag/jolly#readme",
+  "dependencies": {
+    "confidence": "^1.2.0",
+    "glue": "^2.2.0"
+  }
 }

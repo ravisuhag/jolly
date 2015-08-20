@@ -2,8 +2,9 @@
 HapiJS application charger
 
 ### Hapi Plugins 
-- [Confidence](https://github.com/hapijs/confidence) - Configuration API
 - [Glue](https://github.com/hapijs/glue) - Server composer for hapi.js
+- [Confidence](https://github.com/hapijs/confidence) - Configuration API
+
 - [Joi](https://github.com/hapijs/joi) - Object schema validation
 - [Good](https://github.com/hapijs/good) - Hapi process monitoring
 - [Lab](https://github.com/hapijs/lab) - Test Utility

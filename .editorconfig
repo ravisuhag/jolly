@@ -1,0 +1,25 @@
+# EditorConfig: http://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[**]
+end_of_line = lf
+insert_final_newline = true
+
+# Standard at: https://github.com/felixge/node-style-guide 
+[**.js, **.json]
+trim_trailing_whitespace = true
+indent_style = tab
+quote_type = single
+curly_bracket_next_line = false
+spaces_around_operators = true
+space_after_control_statements = true
+space_after_anonymous_functions = false
+spaces_in_brackets = false
+
+# No standard.  Please document a standard if different from .js
+[**.md]
+indent_style = tab
+

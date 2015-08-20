@@ -1,0 +1,40 @@
+'use strict';
+var Confidence = require('confidence');
+
+// Confidence criteria 
+var criteria = {
+  env: process.env.NODE_ENV
+};
+
+//  Confidence document object
+var config = {
+  $meta: 'jolly app configuration file',
+  projectName: '{{projectName}}',
+  port: {
+    web: {
+      $filter: 'env',
+      test: 9000,
+      production: process.env.PORT,
+      $default: 8000
+    }
+  },
+  baseUrl: {
+    $filter: 'env',
+    $meta: 'values should not end in "/"',
+    production: 'https://example.jolly.com',
+    $default: 'http://127.0.0.1:8000'
+  }
+};
+
+
+var store = new Confidence.Store(config);
+
+
+exports.get = function(key) {
+  return store.get(key, criteria);
+};
+
+
+exports.meta = function(key) {
+  return store.meta(key, criteria);
+};

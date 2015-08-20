@@ -4,7 +4,8 @@
   "description": "Hapi JS application charger",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/lab/bin/lab -a code -t 100",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "dependencies": {
     "confidence": "^1.2.0",
     "glue": "^2.2.0",
+    "hapi": "^9.0.3",
     "hoek": "^2.x.x"
   },
   "devDependencies": {

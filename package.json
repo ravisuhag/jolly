@@ -24,6 +24,11 @@
   "homepage": "https://github.com/ravisuhag/jolly#readme",
   "dependencies": {
     "confidence": "^1.2.0",
-    "glue": "^2.2.0"
+    "glue": "^2.2.0",
+    "hoek": "^2.x.x"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "lab": "5.x.x"
   }
 }

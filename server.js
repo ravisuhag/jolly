@@ -1,13 +1,13 @@
 'use strict';
 
 var Composer = require('./index');
+var Hoek = require('hoek');
 
 Composer(function(err, server) {
 
-  if (err) throw err;
-
+  Hoek.assert(!err, err);
   server.start(function() {
-    console.log('App started on port ' + server.info.port);
+    console.log('✅  Server is listening on ' + server.info.port);
   });
 
 });

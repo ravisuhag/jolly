@@ -1,0 +1,25 @@
+{
+  "name": "jolly",
+  "version": "1.0.0",
+  "description": "Hapi JS application charger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravisuhag/jolly.git"
+  },
+  "keywords": [
+    "Jolly",
+    "HapiJS",
+    "Boilerplate",
+    "React"
+  ],
+  "author": "Ravi Suhag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravisuhag/jolly/issues"
+  },
+  "homepage": "https://github.com/ravisuhag/jolly#readme"
+}

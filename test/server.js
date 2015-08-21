@@ -14,12 +14,12 @@ var it = lab.test;
 
 it('starts server and returns hapi server object', function(done) {
 
-  Composer(function(err, server) {
+    Composer(function(err, server) {
 
-    expect(err).to.not.exist();
-    expect(server).to.exist();
-    server.stop(done);
+        expect(err).to.not.exist();
+        expect(server).to.exist();
+        server.stop(done);
 
-  });
+    });
 
 });

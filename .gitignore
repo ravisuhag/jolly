@@ -30,4 +30,5 @@ node_modules
 /config/config.js
 public/*
 test/artifacts/*
+todo.txt
 

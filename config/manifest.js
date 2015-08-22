@@ -25,6 +25,7 @@ var manifest = {
         labels: ['web']
     }],
     plugins: {
+        inert:{},
         vision: {},
         visionary: {
             engines: {
@@ -35,7 +36,9 @@ var manifest = {
             layoutPath: './app/templates/layouts',
             partialsPath: './app/templates/partials',
             layout: 'default'
-        }
+        },
+        './app/routes/index': {},
+        './app/routes/static': {}
     }
 };
 

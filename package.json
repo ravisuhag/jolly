@@ -25,10 +25,12 @@
   "homepage": "https://github.com/ravisuhag/jolly#readme",
   "dependencies": {
     "confidence": "^1.2.0",
+    "glob": "^5.0.14",
     "glue": "^2.2.0",
     "handlebars": "^3.0.3",
     "hapi": "^9.0.3",
     "hoek": "^2.x.x",
+    "inert": "^3.0.1",
     "vision": "^3.0.0",
     "visionary": "^3.0.1"
   },

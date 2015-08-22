@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{{#if title}}{{title}}{{#if q}}{{q}}{{/if}}{{else}}Jolly{{/if}}</title>
+
+  {{#if package}}
+    <meta name="description" content="{{package.description}}">
+    <meta name="keywords" content="{{package.keywords}}">
+    <meta name="twitter:url" content="{{canonicalURL}}">
+    <meta name="twitter:title" content="npm: {{package.name}}">
+    <meta name="twitter:description" content="{{package.description}}">
+  {{/if}}
+
+  <meta charset="utf-8">
+  <meta http-equiv="cleartype" content="on" />
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta name="description" content="jolly">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="jolly">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div>
+    {{{ content }}}
+  </div>
+</body>
+</html>
+

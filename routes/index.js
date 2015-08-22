@@ -3,7 +3,8 @@
 exports.register = function(plugin, options, next) {
 
     var Controllers = {
-        pages: require('../controllers/public/pages')
+        core: require('../controllers/core/pages'),
+        fallback: require('../controllers/core/fallback')
     };
 
 
@@ -12,7 +13,11 @@ exports.register = function(plugin, options, next) {
         {
             method: 'GET',
             path: '/',
-            config : Controllers.pages.home
+            config: Controllers.core.home
+        }, {
+            method: '*',
+            path: '/{p*}',
+            config: Controllers.fallback.notfound
         }
 
     ]);

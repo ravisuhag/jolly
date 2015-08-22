@@ -3,7 +3,7 @@
 exports.register = function(plugin, options, next) {
 
     var Controllers = {
-        Static: require('../controllers/public/static')
+        Static: require('../controllers/core/static')
     };
 
     plugin.route([

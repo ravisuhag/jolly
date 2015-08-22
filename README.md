@@ -17,5 +17,62 @@ HapiJS application charger
 
 - [Crumb](https://github.com/hapijs/crumb) - CSRF crumb generation and validation for hapi
 
+### Structure
+
+```
+jolly
+|
+|-- config
+|
+|-- stores/db 
+|	|
+|	|- Schema
+|	'- Models 
+|
+|-- lib
+| 	|- Authentication
+| 	|- Methods 
+| 	|- Facets 
+| 	|- Emails
+| 	|- Policies
+| 	|- Adapters
+| 	|- Agents
+| 	'- Services
+|
+|-- app 
+|	|- handlers 
+|   |	| - users
+|   |	| - accounts
+|   |	| - admin
+|   |	'- endpoints
+|	|
+| 	|- routes
+|   |	|- users
+|   |	|- accounts
+|   |	|- admin
+|   |	|- endpoints
+|	|
+|	|- views 
+|	|   |- layouts
+|	|   |- partials
+|	|   |- helpers
+|	|   |- users
+|	|   |- accounts
+|	|   '- admin
+|	|
+|	'- public 
+|	   |- components
+|	   |- css
+|	   '- img 
+|
+|-- Tests
+|
+|-- Tasks 
+|
+|-- Scripts
+
+
+```
+
 
 

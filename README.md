@@ -24,10 +24,7 @@ jolly
 |
 |-- config
 |
-|-- stores/db 
-|	|
-|	|- Schema
-|	'- Models 
+|-- models
 |
 |-- lib
 | 	|- Authentication
@@ -41,16 +38,16 @@ jolly
 |
 |-- app 
 |	|- handlers 
-|   |	| - users
-|   |	| - accounts
-|   |	| - admin
+|   |	|- users
+|   |	|- accounts
+|   |	|- admin
 |   |	'- endpoints
 |	|
 | 	|- routes
 |   |	|- users
 |   |	|- accounts
 |   |	|- admin
-|   |	|- endpoints
+|   |	'- endpoints
 |	|
 |	|- views 
 |	|   |- layouts

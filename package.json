@@ -26,8 +26,11 @@
   "dependencies": {
     "confidence": "^1.2.0",
     "glue": "^2.2.0",
+    "handlebars": "^3.0.3",
     "hapi": "^9.0.3",
-    "hoek": "^2.x.x"
+    "hoek": "^2.x.x",
+    "vision": "^3.0.0",
+    "visionary": "^3.0.1"
   },
   "devDependencies": {
     "code": "^1.5.0",

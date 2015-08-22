@@ -11,6 +11,10 @@ var manifest = {
     $meta: 'jolly app manifest document.',
     server: {
         connections: {
+            router: {
+                stripTrailingSlash: true,
+                isCaseSensitive: false
+            },
             routes: {
                 security: true
             }
@@ -21,9 +25,17 @@ var manifest = {
         labels: ['web']
     }],
     plugins: {
-        './app/routes/routes': [{
-            'select': ['web']
-        }]
+        vision: {},
+        visionary: {
+            engines: {
+                hbs: 'handlebars'
+            },
+            path: './app/templates',
+            helpersPath: './app/templates/helpers',
+            layoutPath: './app/templates/layouts',
+            partialsPath: './app/templates/partials',
+            layout: 'default'
+        }
     }
 };
 

@@ -37,8 +37,7 @@ var manifest = {
             partialsPath: './templates/partials',
             layout: 'default'
         },
-        './routes/index': {},
-        './routes/static': {}
+        './routes/core': {}
     }
 };
 

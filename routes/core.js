@@ -3,10 +3,18 @@
 exports.register = function(plugin, options, next) {
 
     var Controllers = {
-        Static: require('../controllers/core/static')
+        core: require('../controllers/core/pages'),
+        fallback: require('../controllers/core/fallback')
     };
 
     plugin.route([
+
+        // Home Page
+        {
+            method: 'GET',
+            path: '/',
+            config: Controllers.core.home
+        },
         // Assets & Static Routes
         {
             method: 'GET',
@@ -28,14 +36,21 @@ exports.register = function(plugin, options, next) {
             method: 'GET',
             path: '/heartbeat',
             config: Controllers.Static.heartbeat
+        },
+        // Fallback route
+        {
+            method: '*',
+            path: '/{p*}',
+            config: Controllers.fallback.notfound
         }
 
     ]);
+
 
     next();
 };
 
 exports.register.attributes = {
-    name: 'static_routes',
+    name: 'index_routes',
     version: require('../package.json').version
 };

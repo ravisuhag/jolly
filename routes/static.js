@@ -37,5 +37,5 @@ exports.register = function(plugin, options, next) {
 
 exports.register.attributes = {
     name: 'static_routes',
-    version: require('../../package.json').version
+    version: require('../package.json').version
 };

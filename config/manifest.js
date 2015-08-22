@@ -31,14 +31,14 @@ var manifest = {
             engines: {
                 hbs: 'handlebars'
             },
-            path: './app/templates',
-            helpersPath: './app/templates/helpers',
-            layoutPath: './app/templates/layouts',
-            partialsPath: './app/templates/partials',
+            path: './templates',
+            helpersPath: './templates/helpers',
+            layoutPath: './templates/layouts',
+            partialsPath: './templates/partials',
             layout: 'default'
         },
-        './app/routes/index': {},
-        './app/routes/static': {}
+        './routes/index': {},
+        './routes/static': {}
     }
 };
 

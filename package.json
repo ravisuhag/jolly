@@ -35,13 +35,15 @@
     "visionary": "^3.0.1"
   },
   "devDependencies": {
+    "bistre": "^1.0.1",
     "code": "^1.5.0",
     "gulp": "^3.9.0",
-    "gulp-load-plugins": "^0.10.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
     "gulp-nodemon": "^2.0.4",
-    "gulp-util": "^3.0.6",
-    "lab": "5.x.x",
-    "webpack": "^1.11.0",
-    "webpack-dev-server": "^1.10.1"
+    "gulp-rev-all": "^0.8.21",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "lab": "5.x.x"
   }
 }

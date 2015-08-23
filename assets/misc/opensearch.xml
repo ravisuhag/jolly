@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Jolly</ShortName>
+  <Description>Hapi app supercharge</Description>
+  <Url type="text/html" method="get" template="https://www.jolly.com/xyz"/>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">
+    https://www.jolly.com/favicon.ico
+  </Image>
+</OpenSearchDescription>

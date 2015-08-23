@@ -16,6 +16,12 @@
   <meta name="apple-mobile-web-app-capable" content="no">
   <meta name="description" content="jolly">
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+  {{#if devEnv}}
+  <link rel="stylesheet" media="all" href="/public/css/index.css">
+  {{else}}
+  <link rel="stylesheet" media="all" href="/public/{{ "css/index.css"}}">
+  {{/if}}
+
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="jolly">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
   <!--[if lt IE 9]>

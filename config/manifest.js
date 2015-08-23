@@ -32,9 +32,9 @@ var manifest = {
                 hbs: 'handlebars'
             },
             path: './templates',
-            helpersPath: './templates/helpers',
             layoutPath: './templates/layouts',
             partialsPath: './templates/partials',
+            helpersPath: './templates/helpers',
             layout: 'default'
         },
         './routes/core': {}

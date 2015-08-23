@@ -56,12 +56,12 @@ Gulp.task('lint', function() {
         .pipe(jshint.reporter('default'));
 });
 
-Gulp.task('rev', ['browserify', 'styles'], function() {
-    return Gulp.src(['static/js/index.js', 'static/js/index.min.js', 'static/css/index.css', 'static/js/vendor.min.js'])
+Gulp.task('rev', ['styles'], function() {
+    return Gulp.src(['public/js/index.js', 'public/js/index.min.js', 'public/css/index.css', 'public/js/vendor.min.js'])
         .pipe(revAll.revision())
-        .pipe(Gulp.dest('static'))
+        .pipe(Gulp.dest('public'))
         .pipe(revAll.manifestFile())
-        .pipe(Gulp.dest('static'));
+        .pipe(Gulp.dest('public'));
 });
 
 

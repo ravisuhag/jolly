@@ -3,8 +3,9 @@
 exports.register = function(plugin, options, next) {
 
     var Controllers = {
-        core: require('../controllers/core/pages'),
-        fallback: require('../controllers/core/fallback')
+        homepage: require('../controllers/core/homepage'),
+        fallback: require('../controllers/core/fallback'),
+        Static : require('../controllers/core/static')
     };
 
     plugin.route([
@@ -13,7 +14,7 @@ exports.register = function(plugin, options, next) {
         {
             method: 'GET',
             path: '/',
-            config: Controllers.core.home
+            config: Controllers.homepage
         },
         // Assets & Static Routes
         {
@@ -41,7 +42,7 @@ exports.register = function(plugin, options, next) {
         {
             method: '*',
             path: '/{p*}',
-            config: Controllers.fallback.notfound
+            config: Controllers.fallback
         }
 
     ]);

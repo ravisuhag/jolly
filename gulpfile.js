@@ -1,7 +1,19 @@
 'use strict';
 
-var gulp = require('gulp');
+var Gulp = require('gulp');
+var Plugins = require('gulp-load-plugins')();
 
-gulp.task('default', function() {
-    // place code for your default task here
-});
+function loadTask(task) {
+    return require('./tasks/' + task)(Gulp, Plugins);
+}
+
+
+Gulp.task('nodemon', loadTask('nodemon'));
+
+
+
+
+
+
+
+Gulp.task('default', ['nodemon']);

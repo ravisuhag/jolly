@@ -1,6 +1,6 @@
 'use strict';
 
-exports.home = {
+module.exports = {
     handler: function(request, reply) {
 
         reply.view('homepage');

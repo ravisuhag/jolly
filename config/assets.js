@@ -6,7 +6,7 @@ var criteria = {
     env: process.env.NODE_ENV
 };
 
-//  Confidence document object
+//  Confidence document object for gulp tasks 
 var paths = {
     fonts: ['./assets/fonts/*'],
     styles: ['./assets/styles/**/*.scss'],

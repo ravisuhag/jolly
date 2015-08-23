@@ -38,7 +38,8 @@ var manifest = {
             layout: 'default'
         },
         './lib/mongoose': Config.get('/mongodb'),
-        './routes/core': {}
+        './routes/core': {},
+        './routes/users': {}
     }
 };
 

@@ -18,3 +18,10 @@ HapiJS application charger
 
 
 
+# Hardcoded module requires - On changing the directory structure here might break things 
+- ```config/manifest``` - Routes plugins paths
+- ```lib/moongoose`` - Load models path
+- ``` routes/*``` - Loading of controllers
+
+
+

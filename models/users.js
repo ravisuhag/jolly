@@ -89,8 +89,9 @@ UserSchema.methods.authenticate = function(password) {
     return this.password === this.hashPassword(password);
 };
 
-UserSchema.findByCredentials = function(username, password, callback) {
+UserSchema.statics.findByCredentials = function(username, password, callback) {
 
+    var self = this;
     var query = {
         isActive: true
     };
@@ -99,12 +100,17 @@ UserSchema.findByCredentials = function(username, password, callback) {
     } else {
         query.username = username.toLowerCase();
     }
-    this.findOne(query, function(err, user){
-        callback(err, user);
+    self.findOne(query, function(err, user) {
+        if (err) {
+            return callback(err);
+        }
+        if (!user || !user.authenticate(password)) {
+            return callback(null, false, {
+                message: 'Invalid username or password'
+            });
+        }
+        return callback(null, user);
     });
-
-
-    
 };
 
 

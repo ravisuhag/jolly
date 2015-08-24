@@ -62,13 +62,15 @@ exports.postForm = {
         if (request.auth.isAuthenticated) {
             return reply.redirect('/account');
         }
-        console.log(User);
-        var context = {
-            user: {
-                first: request.auth.credentials.first,
-                last: request.auth.credentials.last
-            }
-        };
+        User.findByCredentials(request.payload.username, request.payload.username, function(err, isUser, msg) {
+            console.log(isUser, msg);
+        });
+        // var context = {
+        //     user: {
+        //         first: request.auth.credentials.first,
+        //         last: request.auth.credentials.last
+        //     }
+        // };
 
     }
 };

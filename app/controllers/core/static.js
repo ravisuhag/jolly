@@ -24,6 +24,7 @@ exports.favicon = {
 };
 
 exports.heartbeat = {
+    auth: false,
     handler: function(request, reply) {
         reply('OK');
     }

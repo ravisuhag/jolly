@@ -23,18 +23,30 @@ exports.register = function(plugin, options, next) {
             {
                 method: 'GET',
                 path: '/css/{path*}',
+                config: {
+                    auth: false
+                },
                 handler: Controllers.Static.css
             }, {
                 method: 'GET',
                 path: '/img/{path*}',
+                config: {
+                    auth: false
+                },
                 handler: Controllers.Static.img
             }, {
                 method: 'GET',
                 path: '/js/{path*}',
+                config: {
+                    auth: false
+                },
                 handler: Controllers.Static.js
             }, {
                 method: 'GET',
                 path: '/favicon.ico',
+                config: {
+                    auth: false
+                },
                 handler: Controllers.Static.favicon
             }, {
                 method: 'GET',

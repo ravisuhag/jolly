@@ -32,16 +32,17 @@ var manifest = {
             engines: {
                 hbs: 'handlebars'
             },
-            path: './templates',
-            helpersPath: './templates/helpers',
-            layoutPath: './templates/layouts',
-            partialsPath: './templates/partials',
+            path: './app/templates',
+            helpersPath: './app/templates/helpers',
+            layoutPath: './app/templates/layouts',
+            partialsPath: './app/templates/partials',
             layout: 'default'
         },
         './lib/mongoose': Config.get('/mongodb'),
         './lib/auth': Config.get('/authCookie'),
-        './routes/core': {},
-        './routes/users': {}
+        './app/routes/core': {},
+        './app/routes/users': {},
+        './app/routes/auth': {}
     }
 };
 

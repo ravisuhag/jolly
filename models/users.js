@@ -92,23 +92,24 @@ UserSchema.methods.authenticate = function(password) {
 UserSchema.statics.findByCredentials = function(username, password, callback) {
 
     var self = this;
-    var query = {
-        isActive: true
-    };
+    var query = {};
     if (username.indexOf('@') > -1) {
         query.email = username.toLowerCase();
     } else {
         query.username = username.toLowerCase();
     }
+
     self.findOne(query, function(err, user) {
         if (err) {
             return callback(err);
         }
         if (!user || !user.authenticate(password)) {
+
             return callback(null, false, {
                 message: 'Invalid username or password'
             });
         }
+
         return callback(null, user);
     });
 };

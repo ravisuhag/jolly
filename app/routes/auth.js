@@ -31,6 +31,11 @@ exports.register = function(plugin, options, next) {
                 method: 'POST',
                 path: '/signup',
                 config: Controllers.Auth.signup.postForm
+            },
+             {
+                method: '*',
+                path: '/logout',
+                config: Controllers.Auth.logout
             }
 
         ]);

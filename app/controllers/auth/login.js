@@ -62,15 +62,22 @@ exports.postForm = {
         if (request.auth.isAuthenticated) {
             return reply.redirect('/account');
         }
-        User.findByCredentials(request.payload.username, request.payload.username, function(err, user, msg) {
+        User.findByCredentials(request.payload.username, request.payload.password, function(err, user, msg) {
+            var context = {};
+            if (err) {
+                context = {
+                    error: Boom.badImplementation()
+                };
+                return reply.view('auth/login', context);
+            }
             if (user) {
                 request.auth.session.set(user);
                 return reply.redirect('/account');
             } else {
-                var context = {
-                    error: Boom.badImplementation()
+                context = {
+                    error: msg.message
                 };
-                return reply('auth/login', context);
+                return reply.view('auth/login', context);
             }
         });
 

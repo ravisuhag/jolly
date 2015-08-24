@@ -1,1 +1,20 @@
-<p>login page</p>
+<div>
+
+  {{> errors}}
+
+  <form action='' method='post'>
+    <label for="name">Username</label>
+    <input type="text" id="name" name="name" required="required" tabindex=2 autocorrect="off" autocapitalize="off" autofocus/>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required="required" tabindex=3 />
+
+    <input type="submit" class="full-width" value="Submit" />
+
+    <p>
+      <a href="/forgot">Forgot</a> |
+      <a href="/signup">Signup</a>
+    </p>
+    {{> form_security}}
+  </form>
+</div>

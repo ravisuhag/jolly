@@ -1,0 +1,11 @@
+{{#if errors}}
+  <ul class="errors">
+    {{#each errors}}
+      <li>{{message}}</li>
+    {{/each}}
+  </ul>
+{{/if}}
+
+{{#if error}}
+  <p class="error">{{error}}</p>
+{{/if}}

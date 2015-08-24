@@ -25,6 +25,7 @@ var manifest = {
         labels: ['web']
     }],
     plugins: {
+        'hapi-auth-cookie': {},
         inert: {},
         vision: {},
         visionary: {
@@ -38,6 +39,7 @@ var manifest = {
             layout: 'default'
         },
         './lib/mongoose': Config.get('/mongodb'),
+        './lib/auth': Config.get('/authCookie'),
         './routes/core': {},
         './routes/users': {}
     }
@@ -50,6 +52,6 @@ var store = new Confidence.Store(manifest);
 exports.get = function(key) {
     return store.get(key, criteria);
 };
-exports.meta = function(key) {
-    return store.meta(key, criteria);
-};
+// exports.meta = function(key) {
+//     return store.meta(key, criteria);
+// };

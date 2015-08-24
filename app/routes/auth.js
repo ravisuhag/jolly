@@ -7,6 +7,7 @@ exports.register = function(plugin, options, next) {
         var Controllers = {
             Auth: {
                 login: require('../controllers/auth/login'),
+                signup: require('../controllers/auth/signup'),
                 logout: require('../controllers/auth/logout')
             }
         };
@@ -24,8 +25,12 @@ exports.register = function(plugin, options, next) {
                 config: Controllers.Auth.login.postForm
             }, {
                 method: 'GET',
-                path: '/logout',
-                config: Controllers.Auth.logout
+                path: '/signup',
+                config: Controllers.Auth.signup.showForm
+            }, {
+                method: 'POST',
+                path: '/signup',
+                config: Controllers.Auth.signup.postForm
             }
 
         ]);

@@ -27,6 +27,7 @@ Important Hapi plugins used in this projects are
 - Session storage in redis. [example](https://github.com/hapijs/hapi-auth-cookie/blob/master/example/index.js)
 - Implement Honeypot on form submission.
 - Error transformation with ```preResponse``` [refer](http://hapijs.com/api#error-transformation)
+- Implement lockout after maximum attempts in login page
 
 
 

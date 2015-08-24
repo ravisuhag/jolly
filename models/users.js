@@ -89,6 +89,24 @@ UserSchema.methods.authenticate = function(password) {
     return this.password === this.hashPassword(password);
 };
 
+UserSchema.findByCredentials = function(username, password, callback) {
+
+    var query = {
+        isActive: true
+    };
+    if (username.indexOf('@') > -1) {
+        query.email = username.toLowerCase();
+    } else {
+        query.username = username.toLowerCase();
+    }
+    this.findOne(query, function(err, user){
+        callback(err, user);
+    });
+
+
+    
+};
+
 
 
 

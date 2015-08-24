@@ -2,7 +2,7 @@
 
 exports.register = function(plugin, options, next) {
     // Load plugin dependencies
-    plugin.dependency('auth', function(plugin, next) {
+    plugin.dependency(['auth', 'crumb'], function(plugin, next) {
 
         var Controllers = {
             Auth: {

@@ -26,6 +26,9 @@ var manifest = {
     }],
     plugins: {
         'hapi-auth-cookie': {},
+        crumb: {
+            autoGenerate: true
+        },
         inert: {},
         vision: {},
         visionary: {

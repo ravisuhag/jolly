@@ -17,11 +17,15 @@ HapiJS application charger
 - [Crumb](https://github.com/hapijs/crumb) - CSRF crumb generation and validation for hapi
 
 
-
-# Hardcoded module requires - On changing the directory structure here might break things 
+## TODOs
+#### Better loading of modules 
+Hardcoded module requires - On changing the directory structure here might break things 
 - ```config/manifest``` - Routes plugins paths
 - ```lib/moongoose`` - Load models path
 - ``` routes/*``` - Loading of controllers
+
+#### Session storage in redis
+Use session storage for storign session data. [example](https://github.com/hapijs/hapi-auth-cookie/blob/master/example/index.js)
 
 
 

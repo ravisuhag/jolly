@@ -13,8 +13,10 @@ Important Hapi plugins used in this projects are
 - [Boom](https://github.com/hapijs/boom) - HTTP-friendly error objects
 - [Joi](https://github.com/hapijs/joi) - Object schema validation
 - [Crumb](https://github.com/hapijs/crumb) - CSRF crumb generation and validation for hapi
-- [Bluebird](https://github.com/petkaantonov/bluebird) - Full featured Promises/A+ implementation with exceptionally good performance
 
+pipeline
+
+- [Bluebird]() - Full featured Promises/A+ 
 - [Good](https://github.com/hapijs/good) - Hapi process monitoring
 - [Bell](https://github.com/hapijs/bell) - Third-party login plugin for hapi
 - [Scooter](https://github.com/hapijs/scooter) - User-agent information plugin for hapi
@@ -28,6 +30,8 @@ Important Hapi plugins used in this projects are
 - Implement Honeypot on form submission.
 - Error transformation with ```preResponse``` [refer](http://hapijs.com/api#error-transformation)
 - Implement lockout after maximum attempts in login page
+- Server/reply methods for common errors e.g. 
+- More friendly error messgaes for forms 
 
 
 

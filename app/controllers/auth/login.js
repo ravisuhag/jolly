@@ -53,7 +53,7 @@ exports.postForm = {
         },
         failAction: function(request, reply, source, error) {
             var context = {
-                error: 'Invalid username or password'
+                error: Boom.badRequest('invalid username or password') // To Do : check errors and send proper errors
             };
             return reply.view('auth/login', context).code(400);
         },
@@ -62,15 +62,18 @@ exports.postForm = {
         if (request.auth.isAuthenticated) {
             return reply.redirect('/account');
         }
-        User.findByCredentials(request.payload.username, request.payload.username, function(err, isUser, msg) {
-            console.log(isUser, msg);
+        User.findByCredentials(request.payload.username, request.payload.username, function(err, user, msg) {
+            if (user) {
+                request.auth.session.set(user);
+                return reply.redirect('/account');
+            } else {
+                var context = {
+                    error: Boom.badImplementation()
+                };
+                return reply('auth/login', context);
+            }
         });
-        // var context = {
-        //     user: {
-        //         first: request.auth.credentials.first,
-        //         last: request.auth.credentials.last
-        //     }
-        // };
+
 
     }
 };

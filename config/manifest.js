@@ -36,10 +36,10 @@ var manifest = {
                 hbs: 'handlebars'
             },
             path: './app/templates',
-            helpersPath: './app/templates/helpers',
             layoutPath: './app/templates/layouts',
+            helpersPath: './app/templates/helpers',
             partialsPath: './app/templates/partials',
-            layout: 'default'
+            layout: 'default',
         },
         './lib/mongoose': Config.get('/mongodb'),
         './lib/auth': Config.get('/authCookie'),

@@ -1,7 +1,5 @@
 'use strict';
-/* Manifest file reader for grabbing new static assets */
-var manifest = require('../../static/rev-manifest');
-
+var manifest = require('../../../public/rev-manifest.json');
 module.exports = function(filename) {
     return manifest[filename];
 };

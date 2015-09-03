@@ -1,0 +1,1002 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"postString"
+			],
+			[
+				"artis",
+				"artists"
+			],
+			[
+				"usr",
+				"userWithPost"
+			],
+			[
+				"mus",
+				"music"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"a",
+				"artists"
+			],
+			[
+				"mu",
+				"musicArr"
+			],
+			[
+				"us",
+				"usersWithPost"
+			],
+			[
+				"fb",
+				"fbPost"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"pd",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"txt",
+				"text-transform"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"body",
+				"body-color"
+			],
+			[
+				"p_",
+				"p_data"
+			],
+			[
+				"to",
+				"total_trans"
+			],
+			[
+				"l",
+				"l_span"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"pa",
+				"panchayat_code"
+			],
+			[
+				"ste",
+				"stepCols"
+			],
+			[
+				"line",
+				"line_data"
+			],
+			[
+				"st",
+				"stepwise_compare_line"
+			],
+			[
+				"s",
+				"s_data"
+			],
+			[
+				"past",
+				"past_n_days"
+			],
+			[
+				"parse",
+				"parseLines"
+			],
+			[
+				"t",
+				"tSmry"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"col",
+				"colVal"
+			],
+			[
+				"ch",
+				"chartTemplate"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"f",
+				"fdata"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"del",
+				"delayDash"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"bloc",
+				"blockViz"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"viz",
+				"vizData"
+			],
+			[
+				"date",
+				"dateArr"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"taks",
+				"tasks"
+			],
+			[
+				"eve",
+				"event"
+			],
+			[
+				"wor",
+				"workplace"
+			],
+			[
+				"fomr",
+				"formData"
+			],
+			[
+				"en",
+				"endDate"
+			],
+			[
+				"dt",
+				"Date"
+			],
+			[
+				"even",
+				"events"
+			],
+			[
+				"ac",
+				"activeTask"
+			],
+			[
+				"sche",
+				"schemaPath"
+			],
+			[
+				"mon",
+				"monPos"
+			],
+			[
+				"sel",
+				"selectedMonth"
+			],
+			[
+				"wa",
+				"ward_name"
+			],
+			[
+				"ward",
+				"ward_name"
+			],
+			[
+				"p",
+				"pensioner"
+			],
+			[
+				"time",
+				"timeseries"
+			],
+			[
+				"page",
+				"page_no"
+			],
+			[
+				"pen",
+				"pension_type"
+			],
+			[
+				"pens",
+				"pensioner_id"
+			],
+			[
+				"x",
+				"xpath"
+			],
+			[
+				"pm",
+				"pm"
+			],
+			[
+				"mo",
+				"move"
+			],
+			[
+				"move",
+				"movevalue"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"mac",
+				"matchLive"
+			],
+			[
+				"opp",
+				"oppMove"
+			],
+			[
+				"Rando",
+				"RandomPlayer"
+			],
+			[
+				"boa",
+				"board"
+			],
+			[
+				"get",
+				"getAdjacent"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ge",
+				"generateBoard"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ex",
+				"exec"
+			],
+			[
+				"fin",
+				"findOne"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"n",
+				"next_page"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/mongoose.js",
+			"settings":
+			{
+				"buffer_size": 1290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/auth.js",
+			"settings":
+			{
+				"buffer_size": 744,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 336.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly"
+	],
+	"file_history":
+	[
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/.gitignore",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary-api/scripts/schema.json",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/controllers/password.client.controller.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/controllers/settings.client.controller.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/helpers/ml.server.helper.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/views/header.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/settings/edit-profile.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/settings/social-accounts.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/settings/change-password.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/css/dj.css",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/services/dj.client.service.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/views/layout.server.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/views/dj.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/controllers/dj.client.controller.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/Human/dev/human/app/models/user.server.model.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/helpers/facebook.server.helper.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/routes/users.server.routes.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/models/user.server.model.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/config/dj.client.config.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/controllers/users.server.controller.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/config/dj.client.routes.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/dj.client.module.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/css/core.css",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/css/users.css",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/views/home.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/scripts/scanner.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/config/users.client.routes.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/authentication/signup.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/authentication/signin.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/css/modules.css",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/Resumite/Dev/resumite/public/modules/users/views/authentication/signup.client.view.html",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/config/env/development.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/config/env/production.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/config/env/all.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/README.md",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/bower.json",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/scripts/noble.js",
+		"/Users/ravisuhag/Desktop/paydash-prototype/data/delays_sample2.json",
+		"/Users/ravisuhag/Desktop/paydash-prototype/assets/js/main.js",
+		"/Users/ravisuhag/Desktop/paydash-prototype/index.html",
+		"/Users/ravisuhag/Desktop/paydash-prototype/assets/css/style.css",
+		"/Users/ravisuhag/Desktop/paydash-prototype/data/delays_sample.json",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/tasks/browserify.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/tasks/nodmeon.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/locales/US/en/dashboard.properties",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/test/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/config/config.json",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/index.dust",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/login.dust",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/login/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/dashboard/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/admin/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/profile/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/layouts/master.dust",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/css/app.less",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/models/dashboard.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/dashboard.dust",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/auth.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/spec.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/user.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/models/user.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/config/development.json",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/.gitignore",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/server.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/paydash.sublime-project",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/Hackoose/kraken-example-with-passport/config/development.json",
+		"/Users/ravisuhag/Batcave/Workspace/Hackoose/kraken-example-with-passport/config/config.json",
+		"/Users/ravisuhag/Batcave/Workspace/Hackoose/paydash/config/config.json",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/.jshintrc",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/.editorconfig",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/models/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/README.md",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/data/delays_sample.json",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/index.html",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/js/main.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/css/style.css",
+		"/Users/ravisuhag/Desktop/diary",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/gulpfile.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/js/main2.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/js/functions.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/metrics-graphics-2.6.0/metricsgraphics.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/assets/css/style.css",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/assets/css/metricsgraphics-dark.css",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/index.html",
+		"/Users/ravisuhag/Downloads/delays_sample.json",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/assets/js/main.js",
+		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/IHL/Doc/Marketing/TRAI_emails/11 APRIL OTT.html",
+		"/Users/ravisuhag/Desktop/nrega-reportdashboard/api/sdb2012-2013.txt",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/.jshintrc",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/data/delays_sample.json",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/payment-delay.sublime-project",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/.gitignore",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/data/fake_users2.json",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/controller/task-controller.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/new-task.html",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/selectors/selectorService.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/routes/api.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/app.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/selectors/selectorDirective.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/NREGA-Dashboard/modules/reportdash/selectors/selectorDirective.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/NREGA-Dashboard/modules/reportdash/reportdashCtrl.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/assets/css/style.css",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/app.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/views/index.ejs",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/sub-forms/q3_districthq.html",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/sub-forms/q3_statehq.html",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/sub-forms/q3_field.html",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/task.html",
+		"/Users/ravisuhag/Desktop/a.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/.gitignore",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/.bowerrc",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/views/index.ejs",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/routes/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/bin/www",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/index.html",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/modules/login/service/login-service.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"F39C12",
+			"337ab7",
+			"iftt",
+			"aaa",
+			"fff",
+			"2adbb9",
+			"compare",
+			"lyrics",
+			"usersWithPost",
+			"lyrics",
+			"user",
+			"TimelineReport",
+			"Socket",
+			"chat",
+			"nav-pills",
+			"email",
+			"DeviceINQ",
+			"festfolio",
+			"multi",
+			"change",
+			"10",
+			"1%",
+			"lighten",
+			"red",
+			"#00bff3",
+			"LoginModel",
+			"auth",
+			"login",
+			"console",
+			"stepwise_compare_line",
+			",",
+			"'",
+			"p_index",
+			"val",
+			"past_n_days",
+			"paydash.lines",
+			"block_compare_line",
+			"d",
+			"\"RAMPUR\"",
+			", \"2",
+			"args.area && !args.use_data_y_min",
+			"line(",
+			"line",
+			"Material-Theme",
+			"advqos(at)trai(dot)gov(dot)in</td>",
+			"<td>",
+			"<tr>",
+			"Z\")",
+			"Z\"",
+			"ISODate",
+			"ObjectId",
+			"buildAllStepData",
+			"buildDataArray",
+			"config",
+			"delayDash",
+			"delaydash.lines",
+			"console.log(window.performance.now());",
+			"=\"\"",
+			"input",
+			"stepwiseSelector",
+			"u-4",
+			"0",
+			"pure-u-3",
+			"s_p",
+			"i",
+			"headers",
+			"var",
+			"663399",
+			"FDE3A7",
+			"663399",
+			"f7f7f7",
+			"--",
+			"dateArr[0]",
+			"font-size",
+			"build",
+			"reportdash",
+			"workplace",
+			"inag	",
+			"was the ",
+			"govt",
+			"givt",
+			"meeting_d.vc",
+			"specify",
+			"Visiting work",
+			"HQ",
+			"Village",
+			"you",
+			"http://localhost:1337",
+			"location",
+			"end",
+			"start",
+			"onChange",
+			"update",
+			"$scope.active",
+			"calChange",
+			"event.start.toLocaleString()",
+			"start",
+			"placeholder=\"Specify\"",
+			"laceholder=\"Specify\"",
+			"formData.formData.workplace_dhq.redressal",
+			"formData.workplace_dhq.meeting",
+			"formData.worktype_dhq_meeting_vc",
+			"formData.workplace_dhq_meeting_",
+			"reder",
+			"worktype_dhq_complaint_whom",
+			"formData.workplace_field_",
+			"formData.statehq",
+			"statehq_",
+			"field_",
+			"location",
+			"Village",
+			"istrcict",
+			"d=\"distrcicthq_paperwork\"",
+			"class=\"radio-inline\"",
+			" class=\"radio-inline\"",
+			"work",
+			"GP",
+			"location",
+			"Village",
+			"scheme",
+			"Local Schemes",
+			"State Govt Schemes",
+			"Central Govt Schemes",
+			"function",
+			"Central Govt Schemes",
+			"worktype",
+			"UTC",
+			"response.data[0].start."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/mongoose.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/auth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jolly.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Batcave/Workspace/Harvard/Dev/paydash/paydash.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

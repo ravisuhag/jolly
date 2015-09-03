@@ -29,6 +29,7 @@
     "crumb": "^4.0.3",
     "glob": "^5.0.14",
     "glue": "^2.2.0",
+    "gulp-less": "^3.0.3",
     "handlebars": "^3.0.3",
     "hapi": "^9.0.3",
     "hapi-auth-cookie": "^3.1.0",

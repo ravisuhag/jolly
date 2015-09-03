@@ -1,7 +1,7 @@
 'use strict';
 
 var Gulp = require('gulp');
-var sass = require('gulp-sass');
+var less = require('gulp-less');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var RevAll = require('gulp-rev-all');
@@ -23,9 +23,8 @@ Gulp.task('watch', ['dev-build'], function() {
 });
 
 Gulp.task('styles', function() {
-    return Gulp.src('./assets/styles/index.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(sass({outputStyle: 'compressed'}))
+    return Gulp.src('./assets/styles/index.less')
+        .pipe(less())
         .pipe(Gulp.dest('public/css/'));
 });
 

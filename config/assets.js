@@ -9,7 +9,7 @@ var criteria = {
 //  Confidence document object for gulp tasks 
 var paths = {
     fonts: ['./assets/fonts/*'],
-    styles: ['./assets/styles/**/*.scss'],
+    styles: ['./assets/styles/**/*.less'],
     images: ['./assets/images/**/*'],
     misc: ['./assets/misc/*'],
     scripts: {

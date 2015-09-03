@@ -25,6 +25,7 @@ Gulp.task('watch', ['dev-build'], function() {
 Gulp.task('styles', function() {
     return Gulp.src('./assets/styles/index.scss')
         .pipe(sass().on('error', sass.logError))
+        .pipe(sass({outputStyle: 'compressed'}))
         .pipe(Gulp.dest('public/css/'));
 });
 

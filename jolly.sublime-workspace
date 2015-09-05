@@ -533,15 +533,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles"
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly"
 	],
 	"file_history":
 	[
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/config/assets.js",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/gulpfile.js",
 		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/package.json",
 		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/README.md",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/gulpfile.js",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/config/assets.js",
 		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/index.sass",
 		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/jolly.sublime-project",
 		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/app/templates/partials/header.hbs",
@@ -683,6 +682,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"sass",
 			"less",
 			".ui.",
 			"sass",
@@ -809,8 +809,7 @@
 			"location",
 			"Village",
 			"scheme",
-			"Local Schemes",
-			"State Govt Schemes"
+			"Local Schemes"
 		],
 		"highlight": true,
 		"in_selection": false,

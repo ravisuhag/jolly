@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-height"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
 				"pad",
 				"padding-right"
 			],
@@ -20,16 +32,8 @@
 				"margin-right"
 			],
 			[
-				"border",
-				"border-radius"
-			],
-			[
 				"bord",
 				"border"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"text",
@@ -98,10 +102,6 @@
 			[
 				"max",
 				"max-height"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"txt",
@@ -431,22 +431,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "lib/mongoose.js",
-			"settings":
-			{
-				"buffer_size": 1290,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/auth.js",
-			"settings":
-			{
-				"buffer_size": 744,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -549,10 +533,25 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly"
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles"
 	],
 	"file_history":
 	[
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/README.md",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/gulpfile.js",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/config/assets.js",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/index.sass",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/jolly.sublime-project",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/app/templates/partials/header.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/base/variables.less",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/index.less",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/base/site.less",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/collections/menu.less",
+		"/Users/ravisuhag/Downloads/delay_api/dashboard_delay.aspx.vb",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/lib/mongoose.js",
+		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/lib/auth.js",
 		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/.gitignore",
 		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary-api/scripts/schema.json",
 		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/controllers/password.client.controller.js",
@@ -666,21 +665,7 @@
 		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/NREGA-Dashboard/modules/reportdash/selectors/selectorDirective.js",
 		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/NREGA-Dashboard/modules/reportdash/reportdashCtrl.js",
 		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/assets/css/style.css",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/app.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/views/index.ejs",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/sub-forms/q3_districthq.html",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/sub-forms/q3_statehq.html",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/sub-forms/q3_field.html",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/task.html",
-		"/Users/ravisuhag/Desktop/a.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/.gitignore",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/.bowerrc",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/views/index.ejs",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/package.json",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/routes/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/d-api/bin/www",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/index.html",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/modules/login/service/login-service.js"
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/app.js"
 	],
 	"find":
 	{
@@ -698,6 +683,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"less",
+			".ui.",
+			"sass",
+			"minHeight",
+			"$",
+			"\"",
 			"F39C12",
 			"337ab7",
 			"iftt",
@@ -819,13 +810,7 @@
 			"Village",
 			"scheme",
 			"Local Schemes",
-			"State Govt Schemes",
-			"Central Govt Schemes",
-			"function",
-			"Central Govt Schemes",
-			"worktype",
-			"UTC",
-			"response.data[0].start."
+			"State Govt Schemes"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -843,73 +828,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "lib/mongoose.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								899,
-								899
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 264.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lib/auth.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

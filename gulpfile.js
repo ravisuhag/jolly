@@ -69,5 +69,5 @@ Gulp.task('rev', ['styles'], function() {
 Gulp.task('dev-build', ['fonts', 'images', 'misc', 'styles', 'concat', 'lint']);
 Gulp.task('prod-build', ['dev-build', 'rev']);
 Gulp.task('build', ['prod-build']);
-Gulp.task('dev', ['dev-build', 'nodemon', 'watch']);
+Gulp.task('dev', ['dev-build', 'watch', 'nodemon']);
 Gulp.task('default', ['dev']);

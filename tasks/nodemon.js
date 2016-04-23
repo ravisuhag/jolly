@@ -1,10 +1,10 @@
 'use strict';
+const Gulp = require('gulp');
+const Nodemon = require('gulp-nodemon');
 
-var Nodemon = require('gulp-nodemon');
-var bistre = require('bistre');
-module.exports = function(Gulp, Plugins) {
+Gulp.task('nodemon', function() {
 
-    var nodeArgs = [];
+    const nodeArgs = [];
     if (process.env.DEBUGGER) {
         nodeArgs.push('--debug');
     }
@@ -14,26 +14,12 @@ module.exports = function(Gulp, Plugins) {
             ignore: [
                 'assets/',
                 'node_modules/',
-                'public/',
-                'test/',
+                '.build/',
+                'test/'
             ],
-            stdout: false,
             nodeArgs: nodeArgs
-        })
-        .on('readable', function() {
-            this.stdout
-                .pipe(bistre({
-                    time: true
-                }))
-                .pipe(process.stdout);
-            this.stderr
-                .pipe(bistre({
-                    time: true
-                }))
-                .pipe(process.stderr);
         })
         .on('restart', function(files) {
             console.log('change detected:', files);
         });
-
-};
+});

@@ -2,77 +2,67 @@
 
 exports.register = function(plugin, options, next) {
 
-    plugin.dependency('auth', function(plugin, next) {
-
-
-        var Controllers = {
-            homepage: require('../controllers/core/homepage'),
+    var Controllers = {
+        core: {
             fallback: require('../controllers/core/fallback'),
-            Static: require('../controllers/core/static')
-        };
+            static: require('../controllers/core/static')
+        }
+    };
 
-        plugin.route([
+    plugin.route([
 
-            // Home Page
-            {
-                method: 'GET',
-                path: '/',
-                config: Controllers.homepage
+        // Static Routes
+        {
+            method: 'GET',
+            path: '/css/{path*}',
+            config: {
+                auth: false
             },
-            // Assets & Static Routes
-            {
-                method: 'GET',
-                path: '/css/{path*}',
-                config: {
-                    auth: false
-                },
-                handler: Controllers.Static.css
-            }, {
-                method: 'GET',
-                path: '/img/{path*}',
-                config: {
-                    auth: false
-                },
-                handler: Controllers.Static.img
-            }, {
-                method: 'GET',
-                path: '/js/{path*}',
-                config: {
-                    auth: false
-                },
-                handler: Controllers.Static.js
-            }, {
-                method: 'GET',
-                path: '/favicon.ico',
-                config: {
-                    auth: false
-                },
-                handler: Controllers.Static.favicon
-            }, {
-                method: 'GET',
-                path: '/heartbeat',
-                config: Controllers.Static.heartbeat
+            handler: Controllers.core.static.css
+        }, {
+            method: 'GET',
+            path: '/images/{path*}',
+            config: {
+                auth: false
             },
-            // Fallback route
-            {
-                method: '*',
-                path: '/{p*}',
-                config: Controllers.fallback
-            }
+            handler: Controllers.core.static.img
+        }, {
+            method: 'GET',
+            path: '/js/{path*}',
+            config: {
+                auth: false
+            },
+            handler: Controllers.core.static.js
+        }, {
+            method: 'GET',
+            path: '/fonts/{path*}',
+            config: {
+                auth: false
+            },
+            handler: Controllers.core.static.fonts
+        }, {
+            method: 'GET',
+            path: '/favicon.ico',
+            config: {
+                auth: false
+            },
+            handler: Controllers.core.static.favicon
+        }, {
+            method: 'GET',
+            path: '/heartbeat',
+            config: Controllers.core.static.heartbeat
+        }, {
+            method: '*',
+            path: '/{p*}',
+            config: Controllers.core.fallback.notfound
+        }
 
-        ]);
-
-        next();
-    });
-
-
-
+    ]);
 
     next();
 };
 
 exports.register.attributes = {
-    name: 'index_routes',
-    version: require('../../package.json').version,
-    dependencies: 'auth',
+    name: 'core_routes',
+    version: require('../../package.json').version
 };

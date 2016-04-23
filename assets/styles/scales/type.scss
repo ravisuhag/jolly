@@ -1,0 +1,52 @@
+/* Copyright 2016 Infoclot Corporation
+
+type.scss
+Echo's type scale. 
+Raw sizes, spaces, and line heights should be avoided outside of type.scss 
+****************************************************************************/
+
+$fontType--body: 'Open Sans';
+
+/* Font Sizes
+---------------------------------------------*/
+
+$fontSize-micro: 0.8rem;
+$fontSize-smallest: 1rem;
+$fontSize-smaller: 1.2rem;
+$fontSize-small: 1.3rem;
+$fontSize-base: 1.5rem;
+$fontSize-large: 1.8rem;
+$fontSize-larger: 2rem;
+$fontSize-largest: 2.5rem;
+$fontSize-jumbo: 3rem;
+
+/* Font Weight
+---------------------------------------------*/
+
+$fontWeight-thinnest: 100;
+$fontWeight-thinner: 200;
+$fontWeight-thin: 300;
+$fontWeight-normal: 400;
+$fontWeight-thick: 500;
+$fontWeight-thicker: 700;
+$fontWeight-thickest: 800;
+
+/* Line Height
+---------------------------------------------*/
+
+$lineHeight-tightest: 1;
+$lineHeight-tighter: 1.2;
+$lineHeight-tight: 1.4;
+$lineHeight-base: 1.6;
+$lineHeight-loose: 1.8;
+$lineHeight-looser: 2;
+
+/* Letter Spacing
+---------------------------------------------*/
+
+$letterSpacing-tightest:.02rem;
+$letterSpacing-tighter: .05rem;
+$letterSpacing-tight: .1rem;
+$letterSpacing-normal: .15rem;
+$letterSpacing-loose: .2rem;
+$letterSpacing-looser: .3rem;

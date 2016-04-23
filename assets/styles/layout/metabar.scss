@@ -1,0 +1,82 @@
+/* Config
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+$metabar-height: 60px;
+$brand-padding: 10px 54px 2px 0;
+$metabar-menu-padding: 29px 15px 18px;
+$metabar-nav-right-spacing: $metabar-height*20/100;
+
+/* Core
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+body {
+    margin-top: $metabar-height;
+}
+.metabar {
+    font-size: $fontSize-base;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: $metabar-height;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+    @extend .clearfix;
+}
+.metabar .brand {
+    display: inline-block;
+    float: left;
+    margin-top: -3px;
+    height: $metabar-height;
+}
+.metabar .brand img {
+    max-height: 100%;
+    padding: 15px;
+}
+
+/*--------[ Metabar Menu ]---------*/
+
+.metabar .menu {
+    margin-bottom: 0;
+    font-size: .7em;
+}
+.metabar .menu .menu-item {
+    font-size: 1.1em;
+    line-height: 1.1rem;
+    height: auto;
+    padding: $metabar-menu-padding;
+    letter-spacing: $letterSpacing-normal;
+    text-transform: uppercase;
+}
+
+/*--------[ Metabar Right Menu ]---------*/
+
+.metabar-nav-right {
+    margin-left: $metabar-nav-right-spacing;
+    padding: $metabar-nav-right-spacing 0;
+}
+.metabar-nav-right .button {
+    font-size: .7em;
+    line-height: ($metabar-height*60/100)-2;
+    height: $metabar-height*60/100;
+    margin-bottom: 0;
+    margin-left: 10px;
+    border-radius: 999em;
+}
+.metabar-nav-right .avatar {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 1px rgba($color-foreground, .15);
+    border-radius: 999em;
+}
+.metabar-nav-right .avatar:hover,
+.metabar-nav-right .avatar:focus {
+    border: solid 1px rgba($color-foreground, .3);
+}

@@ -1,20 +1,20 @@
-<div>
-
-  {{> errors}}
-
-  <form action='' method='post'>
-    <label for="name">Username</label>
-    <input type="text" id="name" name="username" required="required" tabindex=2 autocorrect="off" autocapitalize="off" autofocus/>
-
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" required="required" tabindex=3 />
-
-    <input type="submit" class="full-width" value="Submit" />
-
-    <p>
-      <a href="/forgot">Forgot</a> |
-      <a href="/signup">Signup</a>
-    </p>
-    {{> form_security}}
-  </form>
+<div class="container-narrow u-spacing-page-top">
+  <div class="u-text-center">
+    <img class="text-logo" src="/images/echo.png" alt="">
+  </div>
+  <p class="u-text-center">Enter your details to sign into your account</p>
+  <div class="form-narrow">
+    {{> flash}}
+    <form action='' method='post'>
+      <label for="username">Username</label>
+      <input class="u-full-width" type="text" id="name" name="username" required="true" tabindex=2 autocorrect="off" autocapitalize="off" autofocus/>
+      <label for="password">Password</label>
+      <input class="u-full-width" type="password" id="password" name="password" required="true" tabindex=3 />
+      <input class="button button--primary u-full-width" type="submit" value="Submit" />
+      <p>
+        <a href="/forgot-password">Forgot password?</a>
+      </p>
+      {{> form_security}}
+    </form>
+  </div>
 </div>

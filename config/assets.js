@@ -1,36 +1,42 @@
 'use strict';
-var Confidence = require('confidence');
+
+const Confidence = require('confidence');
 
 // Confidence criteria 
-var criteria = {
-    env: process.env.NODE_ENV
+
+let internals = {
+    criteria: {
+        env: process.env.NODE_ENV
+    }
 };
 
-//  Confidence document object for gulp tasks 
-var paths = {
+//  Confidence document
+
+internals.paths = {
     fonts: ['./assets/fonts/*'],
-    styles: ['./assets/styles/**/*.less'],
+    styles: ['./assets/styles/**/*'],
     images: ['./assets/images/**/*'],
     misc: ['./assets/misc/*'],
     scripts: {
-        browserify: ['./assets/scripts/*.js'],
-        vendor: ['./assets/scripts/vendor/*.js'],
+        main: ['./assets/scripts/**/*'],
+        vendor: ['./assets/scripts/vendor/*.js']
     },
-    lintables: [
+    lint: [
         './assets/scripts/**/*.js',
-        './models/**/*.js',
-        './routes/**/*.js',
-        './controllers/**/*.js',
+        './app/**/*.js',
         './lib/**/*.js',
+        './config/**/*.js',
         './test/**/*.js',
+        './tasks/**/*.js',
+        '*.js'
     ]
 };
 
-var store = new Confidence.Store(paths);
+internals.store = new Confidence.Store(internals.paths);
 
 exports.get = function(key) {
-    return store.get(key, criteria);
+    return internals.store.get(key, internals.criteria);
 };
 exports.meta = function(key) {
-    return store.meta(key, criteria);
+    return internals.store.meta(key, internals.criteria);
 };

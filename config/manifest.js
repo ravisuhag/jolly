@@ -1,14 +1,18 @@
 'use strict';
 
-var Confidence = require('confidence');
-var Config = require('./config');
+const Confidence = require('confidence');
+const Config = require('./config');
+const Meta = require('./meta');
 
-var criteria = {
-    env: process.env.NODE_ENV
+
+let internals = {
+    criteria: {
+        env: process.env.NODE_ENV
+    }
 };
 
-var manifest = {
-    $meta: 'jolly app manifest document.',
+internals.manifest = {
+    $meta: 'App manifest document',
     server: {
         connections: {
             router: {
@@ -24,38 +28,113 @@ var manifest = {
         port: Config.get('/port/web'),
         labels: ['web']
     }],
-    plugins: {
-        'hapi-auth-cookie': {},
-        crumb: {
-            autoGenerate: true
+    registrations: [
+
+        // Cookie authentication
+        {
+            plugin: 'hapi-auth-cookie'
         },
-        inert: {},
-        vision: {},
-        visionary: {
-            engines: {
-                hbs: 'handlebars'
-            },
-            path: './app/templates',
-            layoutPath: './app/templates/layouts',
-            helpersPath: './app/templates/helpers',
-            partialsPath: './app/templates/partials',
-            layout: 'default',
+
+        //  Crumb
+        {
+            plugin: {
+                register: 'crumb',
+                options: {
+                    autoGenerate: true
+                }
+            }
         },
-        './lib/mongoose': Config.get('/mongodb'),
-        './lib/auth': Config.get('/authCookie'),
-        './app/routes/core': {},
-        './app/routes/users': {},
-        './app/routes/auth': {}
-    }
+
+        // Static file and directory handlers
+        {
+            plugin: 'inert'
+        },
+
+        // Templates rendering support 
+        {
+            plugin: 'vision'
+        },
+
+        // Views loader 
+        {
+            plugin: {
+                register: 'visionary',
+                options: {
+                    engines: {
+                        hbs: 'handlebars'
+                    },
+                    path: './app/templates',
+                    layoutPath: './app/templates/layouts',
+                    helpersPath: './app/templates/helpers',
+                    partialsPath: './app/templates/partials',
+                    layout: 'default'
+                }
+            }
+        },
+
+        //  MongoDB connector 
+        {
+            plugin: {
+                register: './lib/mongoose',
+                options: Config.get('/mongoose')
+            }
+        },
+
+        // Flash Plugin
+        {
+            plugin: {
+                register: './lib/flash'
+            }
+        },
+
+        // Hapi cookie jar
+        {
+            plugin: {
+                register: 'yar',
+                options: Config.get('/yarCookie')
+            }
+        },
+
+        //  Authentication strategy
+        {
+            plugin: {
+                register: './lib/auth',
+                options: Config.get('/authCookie')
+            }
+        },
+
+        //  App context decorator
+        {
+            plugin: {
+                register: './lib/context',
+                options: {
+                    meta: Meta.get('/')
+                }
+            }
+        },
+
+        //  Core routes
+        {
+            plugin: './app/routes/core.js'
+        },
+
+        //  Pages routes
+        {
+            plugin: './app/routes/pages.js'
+        },
+
+        //  Auth routes
+        {
+            plugin: './app/routes/auth.js'
+        }
+    ]
 };
 
-
-var store = new Confidence.Store(manifest);
-
+internals.store = new Confidence.Store(internals.manifest);
 
 exports.get = function(key) {
-    return store.get(key, criteria);
+    return internals.store.get(key, internals.criteria);
 };
-// exports.meta = function(key) {
-//     return store.meta(key, criteria);
-// };
+exports.meta = function(key) {
+    return internals.store.meta(key, internals.criteria);
+};

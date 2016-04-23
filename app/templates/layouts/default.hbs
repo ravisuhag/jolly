@@ -1,34 +1,35 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <title>{{#if title}}{{title}}{{#if q}}{{q}}{{/if}}{{else}}Jolly{{/if}}</title>
-
-  {{#if package}}
-    <meta name="description" content="{{package.description}}">
-    <meta name="keywords" content="{{package.keywords}}">
-    <meta name="twitter:url" content="{{canonicalURL}}">
-    <meta name="twitter:title" content="npm: {{package.name}}">
-    <meta name="twitter:description" content="{{package.description}}">
-  {{/if}}
-
   <meta charset="utf-8">
+  <title>{{meta.title}}</title>
+
   <meta http-equiv="cleartype" content="on" />
   <meta name="apple-mobile-web-app-capable" content="no">
-  <meta name="description" content="jolly">
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+  {{#if devEnv}}
   <link rel="stylesheet" media="all" href="/css/index.css">
-  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="jolly">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
+  {{else}}
+  <link rel="stylesheet" media="all" href="/css/index.css">
+  {{/if}}
+  
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="echo">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
   <![endif]-->
-
 </head>
+
 <body>
-  {{> header }}
-  <div>
-    {{{ content }}}
-  </div>
+  {{> header}}
+  {{{ content }}}
+  <script src="/js/vendor.js"></script>
+  <script src="/js/bundle.js"></script>
 </body>
 </html>
+
 

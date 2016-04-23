@@ -1,0 +1,27 @@
+/* Spacing styles
+-------------------------------------------------*/
+
+button,
+.button {
+    margin-bottom: $spacing-smallest;
+}
+input,
+textarea,
+select,
+fieldset {
+    margin-bottom: $spacing-smaller;
+}
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+    margin-bottom: $spacing-base;
+}
+p {
+    margin-top: 0;
+}

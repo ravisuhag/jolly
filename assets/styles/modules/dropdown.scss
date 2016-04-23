@@ -1,0 +1,153 @@
+// Variables
+$caret-width: .3em !default;
+$zindex-dropdown: 1000 !default;
+$dropdown--border: rgba(0, 0, 0, .15) !default;
+$dropdown--color: $color-grey-light;
+$dropdown--color-hover: $color-grey-dark;
+$dropdown--color-active: $color-grey-darkest;
+$dropdown--borderColor: $color-grey-lightest;
+$dropdown--borderColor-hover: $color-grey-lighter;
+$dropdown--fontSize: $fontSize-small;
+// The dropdown wrapper (div)
+.dropup,
+.dropdown {
+  position: relative;
+}
+.dropdown-toggle {
+  // caret
+  &::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .25rem;
+    content: '';
+    vertical-align: middle;
+    border-top: $caret-width solid;
+    border-right: $caret-width solid transparent;
+    border-left: $caret-width solid transparent;
+  }
+  // Prevent the focus on the dropdown toggle when closing dropdowns
+  &:focus {
+    outline: 0;
+  }
+}
+.dropup {
+  .dropdown-toggle {
+    &::after {
+      border-top: 0;
+      border-bottom: $caret-width solid;
+    }
+  }
+}
+// The dropdown menu (ul)
+.dropdown-menu {
+  position: absolute;
+  z-index: $zindex-dropdown;
+  top: 100%;
+  left: 0;
+  display: none;
+  float: left;
+  min-width: 160px;
+  margin: 2px 0 0;
+  padding: 5px 0;
+  list-style: none;
+  text-align: left;
+  border-radius: $borderRadius-base;
+  background: $color-background;
+  background-clip: padding-box;
+  box-shadow: $shadow-normal;
+}
+.dropdown-menu-pointing {
+  margin-top: 14px;
+}
+.dropdown-menu-pointing:before {
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  content: '';
+  -webkit-transform: rotate(45deg) translate(6px, 6px);
+  -ms-transform: rotate(45deg) translate(6px, 6px);
+  transform: rotate(45deg) translate(6px, 6px);
+  background: $color-background;
+  box-shadow: -1px -1px 1px -1px rgba(0, 0, 0, .44);
+}
+.dropdown-menu-right.dropdown-menu-pointing:before {
+  top: -14px;
+  right: 10px;
+}
+.dropdown-menu-left.dropdown-menu-pointing:before {
+  top: -14px;
+  left: 10px;
+}
+// Links, buttons, and more within the dropdown menu
+.dropdown-item {
+  font-weight: normal;
+  display: block;
+  clear: both;
+  width: 100%; // For `<button>`s
+  padding: 4px 2rem;
+  text-align: inherit; // For `<button>`s
+  white-space: nowrap; // prevent links from randomly breaking onto new lines
+  color: $dropdown--color;
+  border: 0; // For `<button>`s
+  background: none; // For `<button>`s
+}
+.dropdown-item:hover {
+  color: $dropdown--color-hover;
+}
+.dropdown-item.small {
+  font-size: .88em
+}
+.dropdown-menu .divider {
+  height: 1px;
+  background-color: lighten($dropdown--color, 80%);
+  margin: 10px auto;
+}
+.open {
+  > .dropdown-menu {
+    display: block;
+  }
+  // Remove the outline when :focus is triggered
+  > a {
+    outline: 0;
+  }
+}
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+// This is only for left-aligning a dropdown menu within a `.navbar-right` or
+// `.pull-right` nav component.
+.dropdown-menu-left {
+  right: auto;
+  left: 0;
+}
+// Backdrop to catch body clicks on mobile, etc.
+.dropdown-backdrop {
+  position: fixed;
+  z-index: ($zindex-dropdown - 10);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+// Right aligned dropdowns
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.dropup {
+  // Reverse the caret
+  .caret {
+    content: '';
+    border-top: 0;
+    border-bottom: $caret-width solid;
+  }
+  // Different positioning for bottom up menu
+  .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 2px;
+  }
+}

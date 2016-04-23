@@ -1,0 +1,38 @@
+/* Copyright 2016 Infoclot Corporation
+
+color.scss
+Echo's color scale. color values should always be defined in color.scss. 
+You should never define any color outside this file. 
+------------------------------------------------------------------------*/
+
+$color-brand: rgb(30, 44, 79);
+$color-accent: rgb(51, 195, 240);
+$color-foreground: rgb(0, 0, 0);
+$color-background: rgb(255, 255, 255);
+
+/* Brand Shades
+---------------------------------------------*/
+
+$color-accent-dark: darken($color-accent, 8%);
+
+/* State Colors
+---------------------------------------------*/
+
+$color-error: rgb(243, 47, 0);
+$color-error-dark: darken($color-error, 8%);
+$color-success: rgb(39, 170, 11); //#468c54
+$color-success-dark: darken($color-success, 8%);
+$color-warning: rgb(255, 192, 0); // #b58105
+$color-warning-dark: darken($color-warning, 8%);
+
+/* Typography Colors
+---------------------------------------------*/
+
+$color-grey-darkest: rgba($color-foreground, .97);
+$color-grey-darker: rgba($color-foreground, .90);
+$color-grey-dark: rgba($color-foreground, .75);
+$color-grey: rgba($color-foreground, .6);
+$color-grey-light: rgba($color-foreground, .45);
+$color-grey-lighter: rgba($color-foreground, .3);
+$color-grey-lightest: rgba($color-foreground, .15);
+$color-grey-dim: rgba($color-foreground, .05);

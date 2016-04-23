@@ -1,26 +1,30 @@
 'use strict';
 
-
 exports.css = {
     directory: {
-        path: 'public/css'
+        path: '.build/css'
     }
 };
 
 exports.img = {
     directory: {
-        path: 'public/img'
+        path: '.build/images'
     }
 };
 
 exports.js = {
     directory: {
-        path: 'public/js'
+        path: '.build/js'
+    }
+};
+exports.fonts = {
+    directory: {
+        path: '.build/fonts'
     }
 };
 
 exports.favicon = {
-    file: 'public/favicon.ico'
+    file: '.build/favicon.ico'
 };
 
 exports.heartbeat = {

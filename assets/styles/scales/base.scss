@@ -1,0 +1,35 @@
+/* Copyright 2016 Infoclot Corporation
+
+base.scss
+Base configurations. 
+------------------------------------------------------------------------*/
+
+$borderRadius-small: 2px;
+$borderRadius-base: 4px;
+$borderRadius-large: 6px;
+
+/* Module Height
+---------------------------------------------*/
+
+$eleHeight-base: 38px;
+$eleHeight-small: 30px;
+$eleHeight-smaller: 25px;
+
+/* Shadows
+---------------------------------------------*/
+
+$shadow-normal: 0 1px 2px rgba(0, 0, 0, 0.25),
+0 0 1px rgba(0, 0, 0, 0.35);
+
+/* Spacing
+---------------------------------------------*/
+
+$spacing-micro: 0.5rem;
+$spacing-smallest: 1rem;
+$spacing-smaller: 1.5rem;
+$spacing-small: 2rem;
+$spacing-base: 2.5rem;
+$spacing-large: 3rem;
+$spacing-larger: 4rem;
+$spacing-largest: 5rem;
+$spacing-jumbo: 6rem;

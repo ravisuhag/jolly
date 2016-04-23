@@ -1,0 +1,51 @@
+/* Copyright 2016 Infoclot Corporation
+
+Bootstrap Styles
+------------------------------------------------------------------------*/
+
+@import 'vendors/normalize';
+@import 'vendors/stroke/pe-icon-7-stroke';
+@import 'vendors/stroke/helper';
+
+/* Scales
+---------------------------------------------*/
+
+@import 'scales/base';
+@import 'scales/color';
+@import 'scales/type';
+
+/* utils
+---------------------------------------------*/
+
+@import 'helpers/placeholders';
+@import 'helpers/utils';
+
+/* Base styles
+---------------------------------------------*/
+
+@import 'base/base';
+@import 'base/grid';
+@import 'base/spacing';
+@import 'base/lists';
+@import 'base/buttons';
+@import 'base/forms';
+@import 'base/typography';
+
+/* Modules
+---------------------------------------------*/
+
+@import 'modules/dropdown';
+@import 'modules/menu';
+@import 'modules/message';
+@import 'modules/misc';
+
+/* Layouts
+---------------------------------------------*/
+
+@import 'layout/containers';
+@import 'layout/metabar';
+
+/* Views
+---------------------------------------------*/
+
+@import 'views/home';

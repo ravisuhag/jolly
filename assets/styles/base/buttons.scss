@@ -1,0 +1,63 @@
+/* Copyright 2016 Infoclot Corporation
+
+button.scss
+Button components configuration. 
+------------------------------------------------------------------------*/
+
+$button--height: $eleHeight-base;
+$button--padding: 0 30px;
+$button--color: $color-grey-light;
+$button--color-hover: $color-grey-darker;
+$button--color-active: $color-grey-darkest;
+$button--borderColor: $color-grey-lightest;
+$button--borderColor-hover: $color-grey-lighter;
+$button--fontSize: $fontSize-small;
+$button--letterSpacing: $letterSpacing-normal;
+
+/* Buttons
+---------------------------------------------*/
+
+.button {
+    font-size: $button--fontSize;
+    font-weight: $fontWeight-thick;
+    line-height: $button--height;
+    display: inline-block;
+    height: $button--height;
+    padding: $button--padding;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    letter-spacing: $button--letterSpacing;
+    text-transform: uppercase;
+    color: $button--color;
+    border: 1px solid $button--borderColor;
+    border-radius: $borderRadius-base;
+    background-color: transparent;
+}
+.button:hover,
+.button:focus {
+    color: $button--color-hover;
+    border-color: $button--borderColor-hover;
+    outline: 0;
+}
+.button.button--primary {
+    color: #fff;
+    border-color: $color-accent;
+    background-color: $color-accent;
+}
+.button.button--primary:hover,
+.button.button--primary:focus {
+    border-color: $color-accent-dark;
+    background-color: $color-accent-dark;
+}
+.button.button--error {
+    color: #fff;
+    border-color: $color-error;
+    background-color: $color-error;
+}
+.button.button--error:hover,
+.button.button--error:focus {
+    border-color: $color-error-dark;
+    background-color: $color-error-dark;
+}

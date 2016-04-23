@@ -4,120 +4,276 @@
 		"selected_items":
 		[
 			[
-				"min",
-				"min-height"
+				"bak",
+				"background-color"
+			],
+			[
+				"pro",
+				"production"
+			],
+			[
+				"get",
+				"getIntitalState"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"plo",
+				"plotlyLine"
+			],
+			[
+				"pl",
+				"Plotly"
+			],
+			[
+				"con",
+				"context"
 			],
 			[
 				"margin",
-				"margin-top"
+				"margin-right"
 			],
 			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"pad",
-				"padding-right"
+				"de",
+				"dependencies"
 			],
 			[
 				"font",
-				"font-size"
+				"font-family"
+			],
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ci",
+				"cities"
+			],
+			[
+				"new",
+				"newCity"
+			],
+			[
+				"in",
+				"internals"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"source",
+				"source-control"
+			],
+			[
+				"sat",
+				"station"
+			],
+			[
+				"sta",
+				"stations"
+			],
+			[
+				"rec",
+				"recorded_at"
+			],
+			[
+				"satt",
+				"station_id"
+			],
+			[
+				"ben",
+				"Benzene"
+			],
+			[
+				"di",
+				"Dioxide"
+			],
+			[
+				"Ni",
+				"Nitrogen"
+			],
+			[
+				"aqi",
+				"aqi_content"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"lis",
+				"lis:n	list-style:none"
+			],
+			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"stat",
+				"station_id"
+			],
+			[
+				"val",
+				"vals"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"repo",
+				"response"
+			],
+			[
+				"rep",
+				"reponse"
+			],
+			[
+				"cus",
+				"CustomMarker"
+			],
+			[
+				"gol",
+				"goldStar"
+			],
+			[
+				"map",
+				"mapOptions"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"la",
+				"lat_long"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"ta",
+				"table_two"
+			],
+			[
+				"ro",
+				"rows_two"
+			],
+			[
+				"str",
+				"strip"
+			],
+			[
+				"time",
+				"time_list"
+			],
+			[
+				"pa",
+				"parameter"
+			],
+			[
+				"aq",
+				"aq_params"
+			],
+			[
+				"dat",
+				"datetime_report"
+			],
+			[
+				"fin",
+				"find_all"
+			],
+			[
+				"list",
+				"list:n	list-style-type:none"
+			],
+			[
+				"user",
+				"user_blocks"
 			],
 			[
 				"fon",
 				"font-size"
 			],
 			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
 				"marg",
-				"margin-right"
+				"margin-left"
 			],
 			[
-				"bord",
-				"border"
+				"block",
+				"block_id"
 			],
 			[
-				"text",
-				"text-transform"
+				"blo",
+				"block_id"
 			],
 			[
-				"back",
-				"background-color"
+				"St",
+				"STRING"
 			],
 			[
-				"pos",
-				"postString"
+				"ma",
+				"max_x"
 			],
 			[
-				"artis",
-				"artists"
+				"pac",
+				"panchayat_code"
 			],
 			[
-				"usr",
-				"userWithPost"
+				"html",
+				"htmlString"
 			],
 			[
-				"mus",
-				"music"
-			],
-			[
-				"ca",
-				"categories"
-			],
-			[
-				"js",
-				"json"
-			],
-			[
-				"a",
-				"artists"
-			],
-			[
-				"mu",
-				"musicArr"
-			],
-			[
-				"us",
-				"usersWithPost"
-			],
-			[
-				"fb",
-				"fbPost"
-			],
-			[
-				"res",
-				"results"
-			],
-			[
-				"re",
-				"require"
-			],
-			[
-				"user",
-				"users"
-			],
-			[
-				"pd",
-				"padding-bottom"
-			],
-			[
-				"max",
-				"max-height"
-			],
-			[
-				"txt",
-				"text-transform"
+				"hl",
+				"htmlString"
 			],
 			[
 				"fn",
 				"function"
 			],
 			[
-				"tab",
-				"table-cell"
+				"ht",
+				"htmlString"
 			],
 			[
-				"fot",
-				"font-size"
+				"quer",
+				"queryString"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"c",
+				"console"
 			],
 			[
 				"box-",
@@ -140,6 +296,10 @@
 				"letter-spacing"
 			],
 			[
+				"tab",
+				"table-cell"
+			],
+			[
 				"body",
 				"body-color"
 			],
@@ -160,8 +320,8 @@
 				"values"
 			],
 			[
-				"pa",
-				"panchayat_code"
+				"max",
+				"max_y"
 			],
 			[
 				"ste",
@@ -192,10 +352,6 @@
 				"tSmry"
 			],
 			[
-				"val",
-				"value"
-			],
-			[
 				"col",
 				"colVal"
 			],
@@ -216,19 +372,11 @@
 				"forEach"
 			],
 			[
-				"bak",
-				"background-color"
-			],
-			[
 				"del",
 				"delayDash"
 			],
 			[
 				"cur",
-				"cursor"
-			],
-			[
-				"c",
 				"cursor"
 			],
 			[
@@ -242,10 +390,6 @@
 			[
 				"mar",
 				"margin-top"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"viz",
@@ -262,10 +406,6 @@
 			[
 				"bo",
 				"border"
-			],
-			[
-				"new",
-				"newValue"
 			],
 			[
 				"taks",
@@ -308,10 +448,6 @@
 				"monPos"
 			],
 			[
-				"sel",
-				"selectedMonth"
-			],
-			[
 				"wa",
 				"ward_name"
 			],
@@ -322,10 +458,6 @@
 			[
 				"p",
 				"pensioner"
-			],
-			[
-				"time",
-				"timeseries"
 			],
 			[
 				"page",
@@ -342,6 +474,10 @@
 			[
 				"x",
 				"xpath"
+			],
+			[
+				"a",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
 			],
 			[
 				"pm",
@@ -376,61 +512,21 @@
 				"board"
 			],
 			[
-				"get",
-				"getAdjacent"
-			],
-			[
-				"cons",
-				"console"
-			],
-			[
-				"ge",
-				"generateBoard"
-			],
-			[
-				"form",
-				"formData"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"borde",
-				"border-radius"
-			],
-			[
-				"rgb",
-				"rgba()"
-			],
-			[
-				"ex",
-				"exec"
-			],
-			[
-				"fin",
-				"findOne"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"op",
-				"opacity"
-			],
-			[
-				"n",
-				"next_page"
-			],
-			[
-				"co",
-				"color"
+				"pos",
+				"possibleMoves"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 11,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -439,26 +535,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 336.0,
+		"height": 354.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"markdow",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"lis",
-				"Package Control: List Packages"
-			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -472,12 +552,48 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"enable",
-				"Package Control: Enable Package"
+				"intsall",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"list",
 				"Package Control: List Packages"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
 			],
 			[
 				"mark",
@@ -504,10 +620,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: ins",
 				"Package Control: Install Package"
 			]
@@ -516,9 +628,13 @@
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 398.0,
 		"history":
 		[
+			"sublime.log_commands(False)",
+			"sublime.log_input(False)",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)",
 			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -533,138 +649,138 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly"
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly"
 	],
 	"file_history":
 	[
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/config/assets.js",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/gulpfile.js",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/package.json",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/README.md",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/index.sass",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/jolly.sublime-project",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/app/templates/partials/header.hbs",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/base/variables.less",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/index.less",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/base/site.less",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/assets/styles/collections/menu.less",
-		"/Users/ravisuhag/Downloads/delay_api/dashboard_delay.aspx.vb",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/lib/mongoose.js",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/lib/auth.js",
-		"/Users/ravisuhag/Batcave/Workspace/RoninRavi/Dev/jolly/.gitignore",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary-api/scripts/schema.json",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/controllers/password.client.controller.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/controllers/settings.client.controller.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/helpers/ml.server.helper.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/views/header.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/settings/edit-profile.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/settings/social-accounts.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/settings/change-password.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/css/dj.css",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/services/dj.client.service.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/views/layout.server.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/views/dj.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/controllers/dj.client.controller.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/Human/dev/human/app/models/user.server.model.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/helpers/facebook.server.helper.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/routes/users.server.routes.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/models/user.server.model.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/config/dj.client.config.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/app/controllers/users.server.controller.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/config/dj.client.routes.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/dj/dj.client.module.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/css/core.css",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/css/users.css",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/views/home.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/scripts/scanner.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/config/users.client.routes.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/authentication/signup.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/users/views/authentication/signin.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/public/modules/core/css/modules.css",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/Resumite/Dev/resumite/public/modules/users/views/authentication/signup.client.view.html",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/config/env/development.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/config/env/production.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/config/env/all.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/README.md",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/bower.json",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/package.json",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/human/dev/human/scripts/noble.js",
-		"/Users/ravisuhag/Desktop/paydash-prototype/data/delays_sample2.json",
-		"/Users/ravisuhag/Desktop/paydash-prototype/assets/js/main.js",
-		"/Users/ravisuhag/Desktop/paydash-prototype/index.html",
-		"/Users/ravisuhag/Desktop/paydash-prototype/assets/css/style.css",
-		"/Users/ravisuhag/Desktop/paydash-prototype/data/delays_sample.json",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/tasks/browserify.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/tasks/nodmeon.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/locales/US/en/dashboard.properties",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/config/meta.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/config/manifest.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/app/templates/partials/header.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/styles/scales/color.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/styles/modules/dropdown.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/styles/base/buttons.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/styles/base/base.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/styles/scales/base.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/styles/scales/type.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/config/config.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/tasks/assets.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/test.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/config/assets.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/app/templates/homepage.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/jolly.sublime-project",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/scripts/components/test.jsx",
 		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/test/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/config/config.json",
-		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/index.dust",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/login.dust",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/login/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/dashboard/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/admin/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/controllers/profile/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/layouts/master.dust",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/css/app.less",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/models/dashboard.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/public/templates/dashboard.dust",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/auth.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/spec.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/user.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/models/user.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/config/development.json",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/.gitignore",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/server.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/paydash.sublime-project",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/package.json",
-		"/Users/ravisuhag/Batcave/Workspace/Hackoose/kraken-example-with-passport/config/development.json",
-		"/Users/ravisuhag/Batcave/Workspace/Hackoose/kraken-example-with-passport/config/config.json",
-		"/Users/ravisuhag/Batcave/Workspace/Hackoose/paydash/config/config.json",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/.jshintrc",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/.editorconfig",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/models/index.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/README.md",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/data/delays_sample.json",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/index.html",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/js/main.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/css/style.css",
-		"/Users/ravisuhag/Desktop/diary",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/gulpfile.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/js/main2.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/assets/js/functions.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/paydash/lib/metrics-graphics-2.6.0/metricsgraphics.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/assets/css/style.css",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/assets/css/metricsgraphics-dark.css",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/index.html",
-		"/Users/ravisuhag/Downloads/delays_sample.json",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/assets/js/main.js",
-		"/Users/ravisuhag/Batcave/Workspace/InspirationEdge/IHL/Doc/Marketing/TRAI_emails/11 APRIL OTT.html",
-		"/Users/ravisuhag/Desktop/nrega-reportdashboard/api/sdb2012-2013.txt",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/.jshintrc",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/data/delays_sample.json",
-		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
-		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/payment-delay.sublime-project",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/.gitignore",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/payment-delay/data/fake_users2.json",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/views/home.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/homepage.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/base/typography.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/tasks/webpack.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/index.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/posts/overview-posts.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/scripts/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/.babelrc",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/posts/overview-posts.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/routes/posts.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/partials/header.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/models/post.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/infoclot/app/models/article.server.model.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/infobot/infobot/settings.py",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/config/manifest.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/scripts/components/active-link.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/scripts/components/dropdown.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/scripts/lib/plotly.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/auth/logout.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/auth/login.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/layouts/default.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/lib/flash.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/config/config.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/auth/login.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/modules/misc.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/layout/containers.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/helpers/utils.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/base/forms.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/base/spacing.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/routes/auth.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/layout/metabar.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/models/user.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/.eslintrc",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/auth/email-verify.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/scales/color.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/scales/base.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/base/buttons.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/base/base.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/base/grid.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/scales/type.scss",
+		"/Users/ravisuhag/Batcave/Workspace/IHL/Dev/hackersleague/assets/styles/config/color.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/config/base.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/assets/styles/config/color.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/routes/pages.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/routes/core.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/pages/home.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/core/pages.js",
+		"/Users/ravisuhag/Batcave/Workspace/IHL/Dev/hackersleague/app/routes/core.js",
+		"/Users/ravisuhag/Batcave/Workspace/IHL/Dev/hackersleague/assets/styles/base/grid.scss",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/lib/context.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/tasks/nodemon.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/server.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/README.md",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/config/meta.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/config/assets.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/INTERNALS.md",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/lib/auth.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/bouncy/config/starturls.json",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/metaout/package.json",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/gulpfile.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/core/static.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/tasks/assets.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/helpers/m.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/templates/partials/meta.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/.gitignore",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/lib/app.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/app/controllers/core/fallback.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/lib/mongoose.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/tasks/lint.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/config/config.example.js",
 		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/.eslintrc.yml",
 		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/controller/task-controller.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/tasks/views/new-task.html",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/selectors/selectorService.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/routes/api.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/app.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/selectors/selectorDirective.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/NREGA-Dashboard/modules/reportdash/selectors/selectorDirective.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/NREGA-Dashboard/modules/reportdash/reportdashCtrl.js",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/assets/css/style.css",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/district-diary/public/modules/app.js"
+		"/Users/ravisuhag/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/.jshintrc",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/tasks/watch.js",
+		"/Users/ravisuhag/Batcave/Workspace/Infoclot/Dev/echo/echo.sublime-project",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/controllers/widget/map.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/index.scss",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/templates/layouts/default.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/templates/widget/map.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/menu.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/views/map.scss",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/views/responsive.scss",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/templates/homepage.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/chart.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/widget/map.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/controllers/widget/cities.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/node_modules/milligram/dist/milligram.css",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/package.json",
+		"/Users/ravisuhag/Desktop/Demo/firmware/main.c",
+		"/Users/ravisuhag/Desktop/Demo/firmware/Makefile",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/share.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/gmap.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/aqbot/models/stations.json",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/base/base.scss",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/templates/aboutpage.hbs",
+		"/Users/ravisuhag/Downloads/Trackers.html",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/util.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/components/navigation.scss",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/source.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/routes/widget.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/controllers/widget/stations.js",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/README.md",
+		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/delhi-airquality/index.html",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/aqbot/aqbot/utils/aqi.py",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/aqbot/README.md",
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/controllers/core/pages.js"
 	],
 	"find":
 	{
@@ -682,134 +798,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"sass",
-			"less",
-			".ui.",
-			"sass",
-			"minHeight",
-			"$",
-			"\"",
-			"F39C12",
-			"337ab7",
-			"iftt",
-			"aaa",
-			"fff",
-			"2adbb9",
-			"compare",
-			"lyrics",
-			"usersWithPost",
-			"lyrics",
-			"user",
-			"TimelineReport",
-			"Socket",
-			"chat",
-			"nav-pills",
-			"email",
-			"DeviceINQ",
-			"festfolio",
-			"multi",
-			"change",
-			"10",
-			"1%",
-			"lighten",
-			"red",
-			"#00bff3",
-			"LoginModel",
-			"auth",
-			"login",
-			"console",
-			"stepwise_compare_line",
-			",",
-			"'",
-			"p_index",
-			"val",
-			"past_n_days",
-			"paydash.lines",
-			"block_compare_line",
-			"d",
-			"\"RAMPUR\"",
-			", \"2",
-			"args.area && !args.use_data_y_min",
-			"line(",
-			"line",
-			"Material-Theme",
-			"advqos(at)trai(dot)gov(dot)in</td>",
-			"<td>",
-			"<tr>",
-			"Z\")",
-			"Z\"",
-			"ISODate",
-			"ObjectId",
-			"buildAllStepData",
-			"buildDataArray",
-			"config",
-			"delayDash",
-			"delaydash.lines",
-			"console.log(window.performance.now());",
-			"=\"\"",
-			"input",
-			"stepwiseSelector",
-			"u-4",
-			"0",
-			"pure-u-3",
-			"s_p",
-			"i",
-			"headers",
+			"Echo",
+			"infoclot",
+			"echo",
+			"programs",
+			"Posts",
+			"programs",
+			"Program",
+			"home",
+			"hello",
+			"session",
+			"base",
+			"crumb",
+			"crypto",
+			"Const",
 			"var",
-			"663399",
-			"FDE3A7",
-			"663399",
-			"f7f7f7",
-			"--",
-			"dateArr[0]",
-			"font-size",
-			"build",
-			"reportdash",
-			"workplace",
-			"inag	",
-			"was the ",
-			"govt",
-			"givt",
-			"meeting_d.vc",
-			"specify",
-			"Visiting work",
-			"HQ",
-			"Village",
-			"you",
-			"http://localhost:1337",
-			"location",
-			"end",
-			"start",
-			"onChange",
-			"update",
-			"$scope.active",
-			"calChange",
-			"event.start.toLocaleString()",
-			"start",
-			"placeholder=\"Specify\"",
-			"laceholder=\"Specify\"",
-			"formData.formData.workplace_dhq.redressal",
-			"formData.workplace_dhq.meeting",
-			"formData.worktype_dhq_meeting_vc",
-			"formData.workplace_dhq_meeting_",
-			"reder",
-			"worktype_dhq_complaint_whom",
-			"formData.workplace_field_",
-			"formData.statehq",
-			"statehq_",
-			"field_",
-			"location",
-			"Village",
-			"istrcict",
-			"d=\"distrcicthq_paperwork\"",
-			"class=\"radio-inline\"",
-			" class=\"radio-inline\"",
-			"work",
-			"GP",
-			"location",
-			"Village",
-			"scheme",
-			"Local Schemes"
+			"********************************************",
+			"*******************************************",
+			"$type",
+			"$fontSize",
+			"grey",
+			"pure-g",
+			"253802",
+			"vi",
+			"v",
+			"virat",
+			"kohli",
+			"kolhi",
+			"kohli",
+			"virat",
+			"kohli",
+			"virat",
+			"Config",
+			"\"",
+			"autoprefixer",
+			"paths",
+			"var",
+			"d3",
+			"\"",
+			"select",
+			"\"",
+			"Kanp",
+			"kanpur",
+			"Uttar Pradesh",
+			"h5",
+			"Chart",
+			"\n</",
+			"map",
+			"js-city-selector",
+			"menulist",
+			"stations",
+			"\"",
+			"chart",
+			"h4",
+			"core",
+			"widget",
+			"span",
+			"small",
+			"fre",
+			"letter",
+			"value",
+			"\"",
+			"d3",
+			"report.data",
+			"data",
+			"report.recorded_at.local.toDateString()",
+			"his",
+			"result",
+			"date",
+			"\"",
+			"5",
+			"active_region",
+			"aaa",
+			"outline",
+			";\n",
+			"||",
+			"*",
+			"'",
+			"name",
+			":",
+			"description",
+			"name",
+			"corrected",
+			"Description",
+			"urlparse",
+			"alias",
+			"collect_data",
+			"\"",
+			",",
+			"this.",
+			"\"",
+			"color",
+			"FF0000",
+			"00B14B",
+			"verypoor",
+			"poor",
+			"moderate",
+			"satisfatory",
+			"good",
+			"tcenter",
+			"\"",
+			"data",
+			"\"",
+			"var",
+			"overlay",
+			"clik",
+			"\"",
+			"notifications",
+			"alerts",
+			"var",
+			"const",
+			"3AA2D5",
+			"3b5998",
+			"\"",
+			"Program",
+			"var",
+			"paths",
+			"var",
+			"jshint",
+			"var",
+			"paths",
+			"requireDir",
+			"var",
+			"config: {\n                auth: false\n            },",
+			"const",
+			"glob",
+			"var",
+			"hks-epod/paydash",
+			"data_file"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -827,8 +943,41 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -913,7 +1062,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 290.0,
+	"side_bar_width": 390.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,0 +1,43 @@
+/* Links
+-------------------------------------------------*/
+
+a {
+    color: $color-accent;
+    text-decoration: none;
+}
+a:hover {
+    color: darken($color-accent, 10%);
+}
+
+/* Headings
+------------------------------------------------- */
+h1{
+    font-weight: normal
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    font-weight: lighter;
+    margin-bottom: $spacing-small;
+}
+
+/* Code
+------------------------------------------------- */
+
+code {
+    padding: .2rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+}
+pre > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre;
+}

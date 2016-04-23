@@ -10,18 +10,12 @@ module.exports = {
             source: 'payload',
             restful: true
         }
-
     },
     handler: function(request, reply) {
 
-        // setTimeout( function () {
+        request.cookieAuth.clear();
+        request.yar.flash('success', 'Logged out successfully');
+        return reply.redirect('/login');
 
-        request.auth.session.clear();
-        var context = {
-            error: 'logged out succesfully'
-        };
-        return reply.view('auth/login', context);
-
-        // }, 4000);
     }
 };

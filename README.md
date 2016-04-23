@@ -43,6 +43,7 @@ Let's take a tour of the app.
 |   |-- assets.js          // Assets configuration file
 |   |-- config.js          // Application configuration file which stores all passwords etc. (gitignore).
 |   |-- manifest.js        // App manifest file listing all plugins and load order. 
+|   |-- meta.js            // App metadata file. 
 |   
 |-- lib                    // Core application lib/plugins 
 |-- tasks                  // Contains all gulp tasks 

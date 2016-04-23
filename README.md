@@ -1,4 +1,6 @@
 ## Jolly
+Production ready boilerplate for hapiJS 
+
 
 ## Technology
 

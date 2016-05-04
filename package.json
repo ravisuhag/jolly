@@ -1,6 +1,6 @@
 {
   "name": "jolly",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Production ready boileprlate for Hapi",
   "main": "index.js",
   "scripts": {

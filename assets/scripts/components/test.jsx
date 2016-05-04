@@ -21,21 +21,16 @@ import {render} from 'react-dom';
 
 
 var Comment = React.createClass({
-    getIntitalState: function(){
-        return {
-            count: 5
-        };
-    },
     render: function() {
         return (
             <div className="comment">
                 <h2 className="commentAuthor">
                     {this.props.name}
-                    {this.state.count}
                 </h2>
             </div>
         );
     }
 });
 
-render(<Comment name="Ravi Suhag"/>, document.getElementById('app'));
+render(<Comment name="React Component"/>, document.getElementById('app'));
+

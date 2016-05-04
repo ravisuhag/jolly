@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "app/templates/homepage.hbs",
 			"settings":
 			{
-				"buffer_size": 11,
+				"buffer_size": 815,
 				"line_ending": "Unix"
 			}
 		}
@@ -653,6 +653,15 @@
 	],
 	"file_history":
 	[
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/scripts/components/test.jsx",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/gulpfile.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/tasks/webpack.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/scripts/index.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/scripts/components/active-link.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/assets/scripts/components/dropdown.js",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/app/templates/auth/login.hbs",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/.gitignore",
+		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/README.md",
 		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/config/meta.js",
 		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/config/manifest.js",
 		"/Users/ravisuhag/Batcave/Workspace/Ronin/Dev/jolly/app/templates/partials/header.hbs",
@@ -771,20 +780,11 @@
 		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/base/base.scss",
 		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/templates/aboutpage.hbs",
 		"/Users/ravisuhag/Downloads/Trackers.html",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/util.js",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/styles/components/navigation.scss",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/source.js",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/routes/widget.js",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/controllers/widget/stations.js",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/README.md",
-		"/Users/ravisuhag/Batcave/Workspace/Harvard/Dev/delhi-airquality/index.html",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/aqbot/aqbot/utils/aqi.py",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/aqbot/README.md",
-		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/app/controllers/core/pages.js"
+		"/Users/ravisuhag/Batcave/Workspace/HindustanTimes/Dev/airist/assets/scripts/components/util.js"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -798,6 +798,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Login",
+			"github",
+			"hks-epod",
+			"paydash",
 			"Echo",
 			"infoclot",
 			"echo",
@@ -921,11 +925,7 @@
 			"requireDir",
 			"var",
 			"config: {\n                auth: false\n            },",
-			"const",
-			"glob",
-			"var",
-			"hks-epod/paydash",
-			"data_file"
+			"const"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -948,28 +948,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "app/templates/homepage.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11,
+						"buffer_size": 815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
+								785,
+								785
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1040,7 +1040,7 @@
 		[
 			[
 				"",
-				"~/Batcave/Workspace/Harvard/Dev/paydash/paydash.sublime-project"
+				"~/Batcave/Workspace/Infoclot/Dev/echo/echo.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1062,7 +1062,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 390.0,
+	"side_bar_width": 222.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

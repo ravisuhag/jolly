@@ -39,7 +39,6 @@ Let's take a tour of the app.
 |   |   |-- <module_name>  // Styles are organised by module names. 
 |   
 |-- config                 // Contains all app configurations
-|   |   |-- keys           // GA and other application keys are stored here. (gitignored).
 |   |-- assets.js          // Assets configuration file
 |   |-- config.js          // Application configuration file which stores all passwords etc. (gitignore).
 |   |-- manifest.js        // App manifest file listing all plugins and load order. 
@@ -57,13 +56,12 @@ Let's take a tour of the app.
 
 ## Code
 
-We're using semi-colons and comma-last. No rhyme or reason; and some of the hapi [code convention guidelines](http://hapijs.com/styleguide). All client-side js code is also in commonJS pattern packs using webpack. Check out `.editorconfig`, `.jsbeautifyrc`, `.jshintrc` for additional code conventions used.
+We're using semi-colons and comma-last. No rhyme or reason; and some of the hapi [code convention guidelines](http://hapijs.com/styleguide). All client-side js code is also in commonJS pattern packs using webpack. Check out `.editorconfig`, `.jsbeautifyrc`, `.eslintrc` for additional code conventions used.
 
 ## Running the server locally
 
  - Install  `node`, `npm`
- - Place a copy of `config.js` in `/config` folder.
- - Monitoring services will require Google analytics service account key file placed in `config/keys/`
+ - Rename `config/config.example.js` to `config/config.js` folder.
  - Run these commands
 
 ```sh

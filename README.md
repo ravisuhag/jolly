@@ -23,7 +23,7 @@ Let's take a tour of the app.
 |   |   |-- <module_name>  // Each controller defines config and handler for that route.
 |   |
 |   |-- helpers            // Helper functions used across application
-|   |-- models             // All sequelize models are defined here
+|   |-- models             // All mongoose models are defined here
 |   |-- routes             // All app routes are defined here
 |   |   |-- <route_plugin> // Route module is a hapi plugin and can be toggled from config/manifest.js
 |   |

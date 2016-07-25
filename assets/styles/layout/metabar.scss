@@ -22,7 +22,7 @@ body {
     width: 100%;
     min-height: $metabar-height;
     box-shadow: 0 0 1px rgba(0, 0, 0, .15);
-    @extend .clearfix;
+    @extend %clearfix;
 }
 .metabar .brand {
     display: inline-block;

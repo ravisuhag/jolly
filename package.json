@@ -26,6 +26,7 @@
     "confidence": "^1.4.2",
     "crumb": "^6.0.0",
     "glue": "^3.2.0",
+    "gulp-rev": "^7.1.0",
     "handlebars": "^4.0.5",
     "hapi": "^13.2.1",
     "hapi-auth-cookie": "^6.1.1",

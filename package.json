@@ -25,6 +25,7 @@
   "dependencies": {
     "confidence": "^1.4.2",
     "crumb": "^6.0.0",
+    "glob": "^7.0.6",
     "glue": "^3.2.0",
     "gulp-rev": "^7.1.0",
     "handlebars": "^4.0.5",
@@ -32,6 +33,7 @@
     "hapi-auth-cookie": "^6.1.1",
     "hoek": "^3.0.4",
     "inert": "^3.2.0",
+    "joi": "^9.0.4",
     "mongoose": "^4.4.10",
     "vision": "^4.0.1",
     "visionary": "^4.0.0",
@@ -50,6 +52,7 @@
     "gulp-eslint": "^2.0.0",
     "gulp-nodemon": "^2.0.6",
     "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7",
     "ify-loader": "^1.0.3",
     "jquery": "^2.2.2",
     "react": "^15.0.1",

@@ -77,16 +77,14 @@ devConfig.devtool = 'sourcemap';
 devConfig.debug = true;
 devConfig.watch = true;
 
-// Create a single instance of the compiler to allow caching
-var devCompiler = Webpack(devConfig);
-
 Gulp.task('webpack:dev-build', function() {
 
-    devCompiler.run(function(err, stats) {
+    Webpack(devConfig, function(err, stats) {
+
         if (err) {
             throw new Gutil.PluginError('webpack', err);
         }
-        Gutil.log('[webpack:build-dev]', stats.toString({
+        Gutil.log('[webpack]', stats.toString({
             colors: true,
             chunks: false
         }));

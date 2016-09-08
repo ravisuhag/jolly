@@ -31,24 +31,24 @@ internals.config = {
     mongoose: {
         $filter: 'env',
         production: {
-            uri: 'mongodb://localhost/echo'
+            uri: 'mongodb://localhost/jolly'
         },
         test: {
-            uri: 'mongodb://localhost/echo-test'
+            uri: 'mongodb://localhost/jolly-test'
         },
         $default: {
-            uri: 'mongodb://localhost/echo',
+            uri: 'mongodb://localhost/jolly',
             options: {}
         }
     },
     authCookie: {
-        cookieSecret: 'MyCookieSecret',
+        cookieSecret: 'MyCookieSecret_ThisShould_be_32_character_long',
         cookieName: 'Basic-auth'
     },
     yarCookie: {
         storeBlank: false,
         cookieOptions: {
-            password: 'MyYarCookieSecret',
+            password: 'MyYarCookieSecret_ThisShould_be_32_character_long',
             isSecure: false
         }
     }

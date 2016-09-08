@@ -12,7 +12,6 @@ var webpackConfig = {
         path: '.build/js/',
         filename: '[name].bundle.js'
     },
-    watch: false,
     cache: true,
     debug: false,
     devtool: 'cheap-module-source-map',
@@ -75,16 +74,17 @@ Gulp.task('webpack:build', function() {
 var devConfig = Object.create(webpackConfig);
 devConfig.devtool = 'sourcemap';
 devConfig.debug = true;
-devConfig.watch = true;
+
+// Create a single instance of the compiler to allow caching
+var devCompiler = Webpack(devConfig);
 
 Gulp.task('webpack:dev-build', function() {
 
-    Webpack(devConfig, function(err, stats) {
-
+    devCompiler.watch({}, function(err, stats) {
         if (err) {
             throw new Gutil.PluginError('webpack', err);
         }
-        Gutil.log('[webpack]', stats.toString({
+        Gutil.log('[webpack:build-dev]', stats.toString({
             colors: true,
             chunks: false
         }));

@@ -11,6 +11,7 @@ Gulp.task('nodemon', function() {
     Nodemon({
             script: 'server.js',
             ext: 'hbs js',
+            env: { 'NODE_ENV': 'development' },
             ignore: [
                 'assets/',
                 'node_modules/',

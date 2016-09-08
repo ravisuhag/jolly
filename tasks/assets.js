@@ -4,7 +4,6 @@ const Gulp = require('gulp');
 const Sass = require('gulp-sass');
 const Autoprefixer = require('gulp-autoprefixer');
 const Paths = require('../config/assets');
-const Rev = require('gulp-rev');
 
 // Build styles
 
@@ -15,10 +14,7 @@ Gulp.task('styles', function() {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(Rev())
-        .pipe(Gulp.dest('.build/css/'))
-        .pipe(Rev.manifest())
-        .pipe(Gulp.dest('.build/'));
+        .pipe(Gulp.dest('.build/css'));
 });
 
 

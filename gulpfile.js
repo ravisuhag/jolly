@@ -9,7 +9,7 @@ RequireDir('./tasks');
 
 
 //  Build task definitions
-Gulp.task('dev-build', ['fonts', 'images', 'misc', 'styles', 'webpack:build', 'lint']);
+Gulp.task('prod-build', ['fonts', 'images', 'misc', 'styles', 'webpack:build', 'lint']);
 Gulp.task('dev-build', ['fonts', 'images', 'misc', 'styles', 'webpack:dev-build', 'lint']);
 
 Gulp.task('dev', ['dev-build', 'watch', 'nodemon']);

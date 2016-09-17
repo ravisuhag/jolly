@@ -113,6 +113,15 @@ internals.manifest = {
             }
         },
 
+        {
+            plugin: {
+                register: './lib/controllers',
+                options: {
+                    path: './app/controllers'
+                }
+            }
+        },
+
         //  Core routes
         {
             plugin: './app/routes/core.js'

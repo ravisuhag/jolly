@@ -2,11 +2,7 @@
 
 exports.register = function(plugin, options, next) {
 
-    var Controllers = {
-        pages: {
-            home: require('../controllers/pages/home')
-        }
-    };
+    var Controllers = plugin.controllers();
 
     plugin.route([
 

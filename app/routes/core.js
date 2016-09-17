@@ -2,12 +2,7 @@
 
 exports.register = function(plugin, options, next) {
 
-    var Controllers = {
-        core: {
-            fallback: require('../controllers/core/fallback'),
-            static: require('../controllers/core/static')
-        }
-    };
+    var Controllers = plugin.controllers();
 
     plugin.route([
 

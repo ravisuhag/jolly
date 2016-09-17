@@ -2,12 +2,7 @@
 
 exports.register = function(plugin, options, next) {
 
-    let Controllers = {
-        auth: {
-            login: require('../controllers/auth/login'),
-            logout: require('../controllers/auth/logout')
-        }
-    };
+    let Controllers = plugin.controllers();
 
     plugin.route([
 

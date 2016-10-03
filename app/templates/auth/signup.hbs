@@ -1,0 +1,22 @@
+<div class="container-narrow u-spacing-page-top">
+  <h4 class="text-logo u-text-center"><img class="login-logo" src="/images/logo.png" alt=""></h4>
+  <p class="u-text-center">Enter your details to create an account</p>
+  <div class="form-narrow">
+    {{> flash}}
+    <form action="" method="post">
+      <label for="name">Username</label>
+      <input class="u-full-width" type="text" id="name" name="username" autocorrect="off" autocapitalize="off" required/>
+      <label for="email">Email</label>
+      <input class="u-full-width" type="text" id="email" name="email" autocorrect="off" autocapitalize="off" />
+      <label for="password">Password</label>
+      <input class="u-full-width" type="password" id="password" name="password" required/>
+      <label for="verify">Verify password</label>
+      <input class="u-full-width" type="password" id="verify" name="verify" required/>
+      <input class="u-full-width button button--primary" type="submit" value="Submit" />
+      <p>
+        Alreay have an account? <a href="/login">Login</a>
+      </p>
+      {{> form_security}}
+    </form>
+  </div>
+</div>

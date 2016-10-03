@@ -3,13 +3,13 @@
 
 button,
 .button {
-    margin-bottom: $spacing-smallest;
+    margin-bottom: $spacing--smallest;
 }
 input,
 textarea,
 select,
 fieldset {
-    margin-bottom: $spacing-smaller;
+    margin-bottom: $spacing--smaller;
 }
 pre,
 blockquote,
@@ -20,7 +20,7 @@ p,
 ul,
 ol,
 form {
-    margin-bottom: $spacing-base;
+    margin-bottom: $spacing--base;
 }
 p {
     margin-top: 0;

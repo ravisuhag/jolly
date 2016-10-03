@@ -1,70 +1,76 @@
 /* Config
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 
-$metabar-height: 60px;
-$brand-padding: 10px 54px 2px 0;
-$metabar-menu-padding: 29px 15px 18px;
-$metabar-nav-right-spacing: $metabar-height*20/100;
+$metabar__height: 60px;
+$metabar__menu-padding: 24px 15px 23px;
+$metabar__navRightSpacing: $metabar__height*20/100;
 
 /* Core
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 
 body {
-    margin-top: $metabar-height;
+    margin-top: $metabar__height;
 }
+
 .metabar {
-    font-size: $fontSize-base;
+    font-size: $fontSize--base;
     position: fixed;
     z-index: 999;
     background-color: #fff;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: $metabar-height;
+    min-height: $metabar__height;
     box-shadow: 0 0 1px rgba(0, 0, 0, .15);
     @extend %clearfix;
 }
-.metabar .brand {
+
+.metabar__brand {
     display: inline-block;
     float: left;
     margin-top: -3px;
-    height: $metabar-height;
+    height: $metabar__height;
 }
-.metabar .brand img {
+
+.metabar__logo {
     max-height: 100%;
     padding: 15px;
 }
 
+
 /*--------[ Metabar Menu ]---------*/
 
-.metabar .menu {
+.metabar__menu {
     margin-bottom: 0;
     font-size: .7em;
 }
-.metabar .menu .menu-item {
-    font-size: 1.1em;
+
+.metabar__menu .menu-item {
+    font-size: 1.2em;
     line-height: 1.1rem;
     height: auto;
-    padding: $metabar-menu-padding;
-    letter-spacing: $letterSpacing-normal;
-    text-transform: uppercase;
+    padding: $metabar__menu-padding;
+    letter-spacing: $letterSpacing--normal;
 }
+
 
 /*--------[ Metabar Right Menu ]---------*/
 
-.metabar-nav-right {
-    margin-left: $metabar-nav-right-spacing;
-    padding: $metabar-nav-right-spacing 0;
+.metabar__nav {
+    margin-left: $metabar__navRightSpacing;
+    padding: $metabar__navRightSpacing 0;
 }
-.metabar-nav-right .button {
+
+.metabar__button {
     font-size: .7em;
-    line-height: ($metabar-height*60/100)-2;
-    height: $metabar-height*60/100;
+    line-height: ($metabar__height*60/100)-2;
+    height: $metabar__height*60/100;
     margin-bottom: 0;
     margin-left: 10px;
     border-radius: 999em;
 }
-.metabar-nav-right .avatar {
+
+.metabar__avatar {
     width: 36px;
     height: 36px;
     line-height: 36px;
@@ -73,10 +79,11 @@ body {
     text-align: center;
     text-align: center;
     vertical-align: middle;
-    border: solid 1px rgba($color-foreground, .15);
+    border: solid 1px rgba($color__foreground, .15);
     border-radius: 999em;
 }
-.metabar-nav-right .avatar:hover,
-.metabar-nav-right .avatar:focus {
-    border: solid 1px rgba($color-foreground, .3);
+
+.metabar__avatar:hover,
+.metabar__avatar:focus {
+    border: solid 1px rgba($color__foreground, .3);
 }

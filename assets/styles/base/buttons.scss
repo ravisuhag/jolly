@@ -1,63 +1,71 @@
-/* Copyright 2016 Infoclot Corporation
+/* Copyright 2016 Resumite Corporation
 
 button.scss
 Button components configuration. 
+
+Syntax: componentName__<property>[--<modifier>]
 ------------------------------------------------------------------------*/
 
-$button--height: $eleHeight-base;
-$button--padding: 0 30px;
-$button--color: $color-grey-light;
-$button--color-hover: $color-grey-darker;
-$button--color-active: $color-grey-darkest;
-$button--borderColor: $color-grey-lightest;
-$button--borderColor-hover: $color-grey-lighter;
-$button--fontSize: $fontSize-small;
-$button--letterSpacing: $letterSpacing-normal;
+$button__height: $eleHeight--base;
+$button__padding: 0 30px;
+$button__color: $color__foreground--light;
+$button__color--hover: $color__foreground--darker;
+$button__color--active: $color__foreground--darkest;
+$button__borderColor: $color__foreground--lightest;
+$button__borderColor--hover: $color__foreground--lighter;
+$button__fontSize: $fontSize--small;
+$button__fontWeight: $fontWeight--thick;
+$button__letterSpacing: $letterSpacing--normal;
 
 /* Buttons
 ---------------------------------------------*/
 
 .button {
-    font-size: $button--fontSize;
-    font-weight: $fontWeight-thick;
-    line-height: $button--height;
+    font-size: $button__fontSize;
+    font-weight: $button__fontWeight;
+    line-height: $button__height;
     display: inline-block;
-    height: $button--height;
-    padding: $button--padding;
+    height: $button__height;
+    padding: $button__padding;
     cursor: pointer;
     text-align: center;
     white-space: nowrap;
     text-decoration: none;
-    letter-spacing: $button--letterSpacing;
+    letter-spacing: $button__letterSpacing;
     text-transform: uppercase;
-    color: $button--color;
-    border: 1px solid $button--borderColor;
-    border-radius: $borderRadius-base;
+    color: $button__color;
+    border: 1px solid $button__borderColor;
+    border-radius: $borderRadius--base;
     background-color: transparent;
 }
+
 .button:hover,
 .button:focus {
-    color: $button--color-hover;
-    border-color: $button--borderColor-hover;
+    color: $button__color--hover;
+    border-color: $button__borderColor--hover;
     outline: 0;
 }
+
 .button.button--primary {
     color: #fff;
-    border-color: $color-accent;
-    background-color: $color-accent;
+    border-color: $color__accent;
+    background-color: $color__accent;
 }
+
 .button.button--primary:hover,
 .button.button--primary:focus {
-    border-color: $color-accent-dark;
-    background-color: $color-accent-dark;
+    border-color: $color__accent--dark;
+    background-color: $color__accent--dark;
 }
+
 .button.button--error {
     color: #fff;
-    border-color: $color-error;
-    background-color: $color-error;
+    border-color: $color__error;
+    background-color: $color__error;
 }
+
 .button.button--error:hover,
 .button.button--error:focus {
-    border-color: $color-error-dark;
-    background-color: $color-error-dark;
+    border-color: $color__error--dark;
+    background-color: $color__error--dark;
 }

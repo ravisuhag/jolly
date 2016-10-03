@@ -1,38 +1,37 @@
-/* Copyright 2016 Infoclot Corporation
+/* Copyright 2016 Resumite Corporation
 
 color.scss
-Echo's color scale. color values should always be defined in color.scss. 
+Resumite's color scale. color values should always be defined in color.scss. 
 You should never define any color outside this file. 
+
+Syntax: {property}__{identifier}--{modifier}
+
 ------------------------------------------------------------------------*/
 
-$color-brand: rgb(30, 44, 79);
-$color-accent: rgb(51, 195, 240);
-$color-foreground: rgb(0, 0, 0);
-$color-background: rgb(255, 255, 255);
+$color__brand                   : rgb(30, 44, 79);
+$color__accent                  : rgb(51, 195, 240);
+$color__foreground              : rgb(0, 0, 0);
+$color__background              : rgb(255, 255, 255);
+$color__error                   : rgb(243, 47, 0);
+$color__success                 : rgb(39, 170, 11); 
+$color__warning                 : rgb(255, 192, 0);
 
-/* Brand Shades
+/* States
 ---------------------------------------------*/
 
-$color-accent-dark: darken($color-accent, 8%);
+$color__accent--dark            : darken($color--accent, 8%);
+$color__error--dark             : darken($color__error, 8%);
+$color__success--dark           : darken($color__success, 8%);
+$color__warning--dark           : darken($color__warning, 8%);
 
-/* State Colors
----------------------------------------------*/
-
-$color-error: rgb(243, 47, 0);
-$color-error-dark: darken($color-error, 8%);
-$color-success: rgb(39, 170, 11); //#468c54
-$color-success-dark: darken($color-success, 8%);
-$color-warning: rgb(255, 192, 0); // #b58105
-$color-warning-dark: darken($color-warning, 8%);
 
 /* Typography Colors
 ---------------------------------------------*/
 
-$color-grey-darkest: rgba($color-foreground, .97);
-$color-grey-darker: rgba($color-foreground, .90);
-$color-grey-dark: rgba($color-foreground, .75);
-$color-grey: rgba($color-foreground, .6);
-$color-grey-light: rgba($color-foreground, .45);
-$color-grey-lighter: rgba($color-foreground, .3);
-$color-grey-lightest: rgba($color-foreground, .15);
-$color-grey-dim: rgba($color-foreground, .05);
+$color__foreground--darkest     : rgba($color__foreground, .95);
+$color__foreground--darker      : rgba($color__foreground, .90);
+$color__foreground--dark        : rgba($color__foreground, .75);
+$color__foreground--normal      : rgba($color__foreground, .6);
+$color__foreground--light       : rgba($color__foreground, .45);
+$color__foreground--lighter     : rgba($color__foreground, .3);
+$color__foreground--lightest    : rgba($color__foreground, .15);

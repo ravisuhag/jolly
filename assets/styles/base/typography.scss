@@ -2,27 +2,33 @@
 -------------------------------------------------*/
 
 a {
-    color: $color-accent;
+    color: $color--accent;
     text-decoration: none;
 }
+
 a:hover {
-    color: darken($color-accent, 10%);
+    color: darken($color--accent, 10%);
 }
+
 
 /* Headings
 ------------------------------------------------- */
-h1{
+
+h1 {
     font-weight: normal
 }
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    font-weight: lighter;
-    margin-bottom: $spacing-small;
+    margin: 0;
+    // margin-top: 0;
+    // margin-bottom: $spacing--small;
+    font-weight: lighter;    
 }
+
 
 /* Code
 ------------------------------------------------- */
@@ -36,6 +42,7 @@ code {
     border: 1px solid #E1E1E1;
     border-radius: 4px;
 }
+
 pre > code {
     display: block;
     padding: 1rem 1.5rem;

@@ -1,5 +1,13 @@
-$form--color: $color-grey-lightest;
-$form--height: $eleHeight-base;
+/* Copyright 2016 Resumite Corporation
+
+button.scss
+Button components configuration. 
+
+Syntax: componentName__<property>[--<modifier>]
+------------------------------------------------------------------------*/
+
+$form__color: $color__foreground--lightest;
+$form__height: $eleHeight--base;
 
 /* Forms
 ---------------------------------------------*/
@@ -13,12 +21,12 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-    height: $form--height;
+    height: $form__height;
     padding: 6px 10px;
     /* The 6px vertically centers text on FF, ignored by Webkit */
-    background-color: $color-background;
-    border: solid 1px $form--color;
-    border-radius: $borderRadius-base;
+    background-color: $color--background;
+    border: solid 1px $form__color;
+    border-radius: $borderRadius--base;
     box-shadow: none;
 }
 input[type="email"],
@@ -48,7 +56,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    border: 1px solid $color-accent;
+    border: 1px solid $color--accent;
     outline: 0;
 }
 label,

@@ -1,13 +1,21 @@
-// Variables
-$caret-width: .3em !default;
-$zindex-dropdown: 1000 !default;
-$dropdown--border: rgba(0, 0, 0, .15) !default;
-$dropdown--color: $color-grey-light;
-$dropdown--color-hover: $color-grey-dark;
-$dropdown--color-active: $color-grey-darkest;
-$dropdown--borderColor: $color-grey-lightest;
-$dropdown--borderColor-hover: $color-grey-lighter;
-$dropdown--fontSize: $fontSize-small;
+/* Copyright 2016 Resumite Corporation
+
+dropdown.scss
+Dropdown module
+
+Syntax: componentName__<property>[--<modifier>]
+------------------------------------------------------------------------*/
+$dropdown__caretWidth: .3em !default;
+$dropdown__zIndex: 1000 !default;
+$dropdown__border: rgba(0, 0, 0, .15) !default;
+$dropdown__color: $color__foreground--light;
+$dropdown__color--hover: $color__foreground--dark;
+$dropdown__color--active: $color__foreground--darkest;
+$dropdown__borderColor: $color__foreground--lightest;
+$dropdown__borderColor--hover: $color__foreground--lighter;
+$dropdown__fontSize: $fontSize--small;
+$dropdown__bgColor : $color__background;
+
 // The dropdown wrapper (div)
 .dropup,
 .dropdown {
@@ -22,9 +30,9 @@ $dropdown--fontSize: $fontSize-small;
     margin-left: .25rem;
     content: '';
     vertical-align: middle;
-    border-top: $caret-width solid;
-    border-right: $caret-width solid transparent;
-    border-left: $caret-width solid transparent;
+    border-top: $dropdown__caretWidth solid;
+    border-right: $dropdown__caretWidth solid transparent;
+    border-left: $dropdown__caretWidth solid transparent;
   }
   // Prevent the focus on the dropdown toggle when closing dropdowns
   &:focus {
@@ -35,14 +43,14 @@ $dropdown--fontSize: $fontSize-small;
   .dropdown-toggle {
     &::after {
       border-top: 0;
-      border-bottom: $caret-width solid;
+      border-bottom: $dropdown__caretWidth solid;
     }
   }
 }
 // The dropdown menu (ul)
 .dropdown-menu {
   position: absolute;
-  z-index: $zindex-dropdown;
+  z-index: $dropdown__zIndex;
   top: 100%;
   left: 0;
   display: none;
@@ -52,10 +60,10 @@ $dropdown--fontSize: $fontSize-small;
   padding: 5px 0;
   list-style: none;
   text-align: left;
-  border-radius: $borderRadius-base;
-  background: $color-background;
+  border-radius: $borderRadius--base;
+  background: $dropdown__bgColor;
   background-clip: padding-box;
-  box-shadow: $shadow-normal;
+  box-shadow: $shadow--normal;
 }
 .dropdown-menu-pointing {
   margin-top: 14px;
@@ -69,7 +77,7 @@ $dropdown--fontSize: $fontSize-small;
   -webkit-transform: rotate(45deg) translate(6px, 6px);
   -ms-transform: rotate(45deg) translate(6px, 6px);
   transform: rotate(45deg) translate(6px, 6px);
-  background: $color-background;
+  background: $dropdown__bgColor;
   box-shadow: -1px -1px 1px -1px rgba(0, 0, 0, .44);
 }
 .dropdown-menu-right.dropdown-menu-pointing:before {
@@ -89,19 +97,19 @@ $dropdown--fontSize: $fontSize-small;
   padding: 4px 2rem;
   text-align: inherit; // For `<button>`s
   white-space: nowrap; // prevent links from randomly breaking onto new lines
-  color: $dropdown--color;
+  color: $dropdown__color;
   border: 0; // For `<button>`s
   background: none; // For `<button>`s
 }
 .dropdown-item:hover {
-  color: $dropdown--color-hover;
+  color: $dropdown__color--hover;
 }
 .dropdown-item.small {
   font-size: .88em
 }
 .dropdown-menu .divider {
   height: 1px;
-  background-color: lighten($dropdown--color, 80%);
+  background-color: lighten($dropdown__color, 80%);
   margin: 10px auto;
 }
 .open {
@@ -126,7 +134,7 @@ $dropdown--fontSize: $fontSize-small;
 // Backdrop to catch body clicks on mobile, etc.
 .dropdown-backdrop {
   position: fixed;
-  z-index: ($zindex-dropdown - 10);
+  z-index: ($dropdown__zIndex - 10);
   top: 0;
   right: 0;
   bottom: 0;
@@ -142,7 +150,7 @@ $dropdown--fontSize: $fontSize-small;
   .caret {
     content: '';
     border-top: 0;
-    border-bottom: $caret-width solid;
+    border-bottom: $dropdown__caretWidth solid;
   }
   // Different positioning for bottom up menu
   .dropdown-menu {

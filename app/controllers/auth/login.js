@@ -38,7 +38,6 @@ exports.postForm = {
         crumb: {
             key: 'crumb',
             source: 'payload',
-            restful: true
         }
     },
     validate: {

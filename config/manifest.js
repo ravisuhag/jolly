@@ -40,7 +40,9 @@ internals.manifest = {
             plugin: {
                 register: 'crumb',
                 options: {
-                    autoGenerate: true
+                    cookieOptions: {
+                        isSecure: false
+                    }
                 }
             }
         },

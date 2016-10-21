@@ -11,11 +11,6 @@ exports.showForm = {
         mode: 'try',
         strategy: 'standard'
     },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        }
-    },
     handler: function(request, reply) {
         if (request.auth.isAuthenticated) {
             return reply.redirect('/account');
@@ -29,11 +24,6 @@ exports.postForm = {
     auth: {
         mode: 'try',
         strategy: 'standard'
-    },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        }
     },
     validate: {
         payload: {

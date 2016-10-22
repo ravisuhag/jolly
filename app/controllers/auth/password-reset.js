@@ -9,11 +9,6 @@ exports.showResetForm = {
         mode: 'try',
         strategy: 'standard'
     },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        }
-    },
     handler: function(request, reply) {
 
         var ctx = {};
@@ -39,11 +34,6 @@ exports.postResetForm = {
     auth: {
         mode: 'try',
         strategy: 'standard'
-    },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        }
     },
     validate: {
         payload: {

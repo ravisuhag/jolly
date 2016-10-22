@@ -11,9 +11,6 @@ exports.showRecoveryForm = {
         strategy: 'standard'
     },
     plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        },
         crumb: {
             key: 'crumb',
             source: 'payload',
@@ -31,11 +28,6 @@ exports.postRecoveryForm = {
     auth: {
         mode: 'try',
         strategy: 'standard'
-    },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        }
     },
     validate: {
         payload: {

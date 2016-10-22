@@ -10,11 +10,6 @@ exports.showForm = {
         mode: 'try',
         strategy: 'standard'
     },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To prevent redirect loop
-        }
-    },
     handler: function(request, reply) {
 
         if (request.auth.isAuthenticated) {
@@ -32,9 +27,6 @@ exports.postForm = {
         strategy: 'standard'
     },
     plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false
-        },
         crumb: {
             key: 'crumb',
             source: 'payload',

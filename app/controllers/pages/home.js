@@ -6,11 +6,6 @@ exports.view = {
         mode: 'try',
         strategy: 'standard'
     },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // '/login' if set redirects to ./login.
-        }
-    },
     handler: function(request, reply) {
 
         reply.view('homepage');

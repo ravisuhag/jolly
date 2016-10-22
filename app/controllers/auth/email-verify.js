@@ -11,11 +11,6 @@ exports.sendVerification = {
         mode: 'try',
         strategy: 'standard'
     },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To prevent redirect loop
-        }
-    },
     handler: function(request, reply) {
         
         // Generate Token
@@ -72,11 +67,6 @@ exports.verifyEmail = {
     auth: {
         mode: 'try',
         strategy: 'standard'
-    },
-    plugins: {
-        'hapi-auth-cookie': {
-            redirectTo: false // To stop from redirect loop
-        }
     },
     handler: function(request, reply) {
 

@@ -87,13 +87,6 @@ internals.manifest = {
             }
         },
 
-        // Flash Plugin
-        {
-            plugin: {
-                register: './lib/flash'
-            }
-        },
-
         // Hapi cookie jar
         {
             plugin: {

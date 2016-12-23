@@ -57,19 +57,24 @@ internals.manifest = {
             plugin: 'vision'
         },
 
-        // Views loader 
+        // views and default context
         {
             plugin: {
-                register: 'visionary',
+                register: './lib/views',
                 options: {
-                    engines: {
-                        hbs: 'handlebars'
+                    views:{
+                        engines: {
+                            hbs: 'handlebars'
+                        },
+                        path: './app/templates',
+                        layoutPath: './app/templates/layouts',
+                        helpersPath: './app/templates/helpers',
+                        partialsPath: './app/templates/partials',
+                        layout: 'default'
                     },
-                    path: './app/templates',
-                    layoutPath: './app/templates/layouts',
-                    helpersPath: './app/templates/helpers',
-                    partialsPath: './app/templates/partials',
-                    layout: 'default'
+                    misc: {
+                        meta: Meta.get('/'),
+                    }
                 }
             }
         },
@@ -102,16 +107,6 @@ internals.manifest = {
             plugin: {
                 register: './lib/auth',
                 options: Config.get('/authCookie')
-            }
-        },
-
-        //  App context decorator
-        {
-            plugin: {
-                register: './lib/context',
-                options: {
-                    meta: Meta.get('/')
-                }
             }
         },
 
